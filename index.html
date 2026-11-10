@@ -1,326 +1,320 @@
-  <!-- Brand Logo -->
-  <a href="#explore" class="flex items-center gap-3.5 group">
-    <div class="logo-crop-wrapper w-16 h-16 sm:w-20 sm:h-20 flex-shrink-0 group-hover:scale-105 transition-transform duration-300">
-      <img src="89a6f547-cc85-4e7b-98b8-5ce682d6345c.png" alt="Seoul Crush CY Logo"
-           class="absolute inset-0 w-full h-full object-cover"
-           onerror="this.style.display='none'" />
-    </div>
-    <div>
-      <div class="flex items-center gap-2">
-        <span class="font-serif font-bold text-2xl sm:text-3xl tracking-tight text-burgundy-900">SEOUL</span>
-        <span class="font-script font-bold text-2xl sm:text-3xl text-hotpink-500 -ml-1">CRUSH</span>
-        <span class="text-hotpink-500 text-lg">♡</span>
+<!DOCTYPE html>
+<html lang="el" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seoul Crush CY — K-Beauty • K-Pop • K-Drama • Korean Finds (@seoulcrush.cy)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            sakura: { 50: '#FFF8FA', 100: '#FDF0F5', 200: '#FADCE8', 300: '#F7C0D6', 400: '#F297BC' },
+            burgundy: { 600: '#8A0F36', 700: '#6D0929', 800: '#5A0821', 900: '#420417', 950: '#2D020F' },
+            hotpink: { 400: '#FF3D85', 500: '#FF146A', 600: '#E00858' },
+            gold: { 300: '#F6E099', 400: '#E5B85B', 500: '#C99635' }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            serif: ['"Cormorant Garamond"', 'serif'],
+            script: ['"Caveat"', 'cursive']
+          },
+          boxShadow: {
+            'card': '0 16px 40px -10px rgba(90, 8, 33, 0.10)',
+            'card-hover': '0 24px 48px -12px rgba(255, 20, 106, 0.20)',
+            'price': '0 8px 20px -4px rgba(90, 8, 33, 0.45), inset 0 1px 2px rgba(255, 255, 255, 0.35)'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background: radial-gradient(circle at 15% 10%, #FFE5F0 0%, #FDF0F5 45%, #FCE8F0 100%);
+      color: #420417;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      overflow-x: hidden;
+    }
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-track { background: #FDF0F5; }
+    ::-webkit-scrollbar-thumb { background: #F297BC; border-radius: 9999px; }
+    ::-webkit-scrollbar-thumb:hover { background: #5A0821; }
+    .pink-script-ribbon {
+      background: linear-gradient(90deg, #FF0F67 0%, #FF2A79 100%);
+      border-radius: 9999px;
+      transform: rotate(-1.2deg);
+      box-shadow: 0 6px 16px rgba(255, 20, 106, 0.28);
+    }
+    .burgundy-price-badge {
+      background: radial-gradient(circle at 30% 25%, #820D32 0%, #5A0821 70%, #3E0416 100%);
+      border: 2.5px solid #E5B85B;
+      box-shadow: 0 8px 20px rgba(90, 8, 33, 0.35), 0 0 0 2px rgba(246, 224, 153, 0.45);
+    }
+    .brush-badge {
+      background: linear-gradient(95deg, #6D0929 0%, #5A0821 85%, #7B0C30 100%);
+      border-radius: 28px 12px 24px 10px;
+    }
+    .logo-crop-wrapper {
+      position: relative;
+      border-radius: 9999px;
+      border: 2.5px solid #6D0929;
+      box-shadow: 0 6px 18px rgba(90, 8, 33, 0.22), 0 0 0 2px #F6E099;
+      overflow: hidden;
+      background: radial-gradient(circle at 50% 42%, #FFFDF9 0%, #FFEAF2 68%, #F9C6DA 100%);
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-hotpink-500 selection:text-white">
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="bg-burgundy-800 text-white text-xs sm:text-sm py-2.5 px-4 border-b border-gold-400/40 relative z-50">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-2 font-medium">
+        <span class="px-2 py-0.5 rounded-full bg-hotpink-500 text-white text-[11px] font-bold uppercase">SEOUL CRUSH • K-BEAUTY</span>
+        <span>🌸 Αυθεντικά Κορεατικά Προϊόντα στην Κύπρο • Πακέτα: Μικρό €2,50 | Μεγάλο €5,00 • Δωρεάν από €50+!</span>
       </div>
-      <p class="text-[11px] sm:text-xs font-semibold text-burgundy-700 tracking-wide">
-        K-BEAUTY • K-POP • K-DRAMA • KOREAN FINDS
-      </p>
+      <div class="flex items-center gap-4 text-xs font-semibold">
+        <a href="https://www.tiktok.com/@seoulcrush.cy?_r=1&_t=ZN-9BHbuYl4ooY" target="_blank" rel="noopener" class="text-sakura-200 hover:text-white transition">🎵 TikTok @seoulcrush.cy</a>
+        <span class="text-white/30">|</span>
+        <span class="text-gold-300">💳 Κάρτα, Stripe & Revolut</span>
+      </div>
     </div>
-  </a>
-
-  <!-- Center Navigation -->
-  <nav class="hidden lg:flex items-center gap-1 bg-white/80 p-1.5 rounded-full border border-sakura-300 shadow-sm">
-    <a href="#explore" class="px-4 py-2 rounded-full text-sm font-bold bg-burgundy-800 text-white shadow-sm transition">
-      🌸 Explore Προϊόντα (10)
-    </a>
-    <a href="#brands" class="px-4 py-2 rounded-full text-sm font-semibold text-burgundy-800 hover:bg-sakura-200/70 transition">
-      ✨ Brands
-    </a>
-    <a href="#routine-quiz" class="px-4 py-2 rounded-full text-sm font-semibold text-burgundy-800 hover:bg-sakura-200/70 transition">
-      💧 K-Beauty Routine
-    </a>
-  </nav>
-
-  <!-- Actions -->
-  <div class="flex items-center gap-2.5">
-    <button id="viewModeToggle" onclick="toggleCardDesignMode()" 
-            class="hidden sm:flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-white border border-sakura-300 text-xs font-bold text-burgundy-800 hover:border-hotpink-500 shadow-sm transition"
-            title="Εναλλαγή προβολής">
-      <span id="viewModeIcon">🖼️</span>
-      <span id="viewModeLabel">Full Promo Cards</span>
-    </button>
-
-    <!-- TikTok Button Only (Instagram removed) -->
-    <a href="https://www.tiktok.com/@seoulcrush.cy?_r=1&_t=ZN-9BHbuYl4ooY" target="_blank" rel="noopener"
-       class="px-3.5 py-2 rounded-full bg-white border border-sakura-300 text-xs font-extrabold text-burgundy-800 hover:border-hotpink-500 hover:text-hotpink-500 transition shadow-sm flex items-center gap-1.5"
-       title="TikTok @seoulcrush.cy">
-      <span>🎵 TikTok</span>
-    </a>
-
-    <!-- Wishlist Button -->
-    <button onclick="filterByWishlist()" id="wishlistBtn"
-            class="relative p-2.5 rounded-full bg-white border border-sakura-300 text-burgundy-800 hover:border-hotpink-500 hover:text-hotpink-500 transition shadow-sm"
-            title="Αγαπημένα">
-      <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
-      </svg>
-      <span id="wishlistCount" class="hidden absolute -top-1 -right-1 w-5 h-5 rounded-full bg-hotpink-500 text-white text-[11px] font-bold flex items-center justify-center">0</span>
-    </button>
-
-    <!-- Cart Drawer Trigger -->
-    <button onclick="toggleCart(true)"
-            class="flex items-center gap-2.5 pl-4 pr-3 py-2 rounded-full bg-burgundy-800 hover:bg-burgundy-700 text-white font-bold text-sm shadow-md transition">
-      <span>Καλάθι</span>
-      <span id="cartCountBadge" class="px-2 py-0.5 rounded-full bg-hotpink-500 text-white text-xs font-extrabold">0</span>
-    </button>
   </div>
-</div>
 
-
-    <div class="lg:col-span-7 space-y-5">
-      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-burgundy-800 text-white text-xs sm:text-sm font-extrabold tracking-widest uppercase shadow-sm">
-        <span>SEOUL CRUSH</span>
-        <span class="text-hotpink-400">•</span>
-        <span>K-BEAUTY COLLECTION</span>
-      </div>
-
-      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-burgundy-900 leading-[1.1] tracking-tight">
-        Η Αυθεντική Συλλογή <br/>
-        <span class="inline-block pink-script-ribbon text-white font-script text-4xl sm:text-5xl px-6 py-1 mt-2">
-          Glass Skin & Glow ♡
-        </span>
-      </h1>
-
-      <p class="text-base sm:text-lg text-burgundy-800/90 max-w-2xl font-medium leading-relaxed">
-        Ανακαλύψτε τα 10 αυθεντικά προϊόντα της <strong>@seoulcrush.cy</strong> από τις κορυφαίες κορεατικές μάρκες ANUA, Beauty of Joseon, SKIN1004, AXIS-Y, Mixsoon & Collagen Care.
-      </p>
-
-      <div class="flex flex-wrap items-center gap-3 pt-1">
-        <span class="px-3.5 py-1.5 rounded-xl bg-white border border-sakura-300 text-xs font-extrabold text-burgundy-900 shadow-sm">
-          📦 Μικρό Πακέτο: €2,50 | Μεγάλο Πακέτο: €5,00
-        </span>
-        <span class="px-3.5 py-1.5 rounded-xl bg-hotpink-500 text-white text-xs font-extrabold shadow-sm">
-          ★ ΔΩΡΕΑΝ Αποστολή από €50+
-        </span>
-      </div>
-
-      <!-- Brand Quick-Pills -->
-      <div id="brands" class="flex flex-wrap items-center gap-2 pt-1">
-        <span class="text-xs font-bold uppercase tracking-wider text-burgundy-700 mr-1">Brands μας:</span>
-        <button onclick="setBrandFilter('ALL')" class="brand-pill active-brand px-3.5 py-1.5 rounded-full text-xs font-extrabold bg-burgundy-800 text-white transition" data-brand="ALL">Όλα (10)</button>
-        <button onclick="setBrandFilter('BEAUTY OF JOSEON')" class="brand-pill px-3.5 py-1.5 rounded-full text-xs font-bold bg-white/90 text-burgundy-800 border border-sakura-300 hover:border-hotpink-500 transition" data-brand="BEAUTY OF JOSEON">Beauty of Joseon (4)</button>
-        <button onclick="setBrandFilter('SKIN1004')" class="brand-pill px-3.5 py-1.5 rounded-full text-xs font-bold bg-white/90 text-burgundy-800 border border-sakura-300 hover:border-hotpink-500 transition" data-brand="SKIN1004">SKIN1004 (2)</button>
-        <button onclick="setBrandFilter('ANUA')" class="brand-pill px-3.5 py-1.5 rounded-full text-xs font-bold bg-white/90 text-burgundy-800 border border-sakura-300 hover:border-hotpink-500 transition" data-brand="ANUA">ANUA (1)</button>
-        <button onclick="setBrandFilter('AXIS-Y')" class="brand-pill px-3.5 py-1.5 rounded-full text-xs font-bold bg-white/90 text-burgundy-800 border border-sakura-300 hover:border-hotpink-500 transition" data-brand="AXIS-Y">AXIS-Y (1)</button>
-        <button onclick="setBrandFilter('MIXSOON')" class="brand-pill px-3.5 py-1.5 rounded-full text-xs font-bold bg-white/90 text-burgundy-800 border border-sakura-300 hover:border-hotpink-500 transition" data-brand="MIXSOON">MIXSOON (1)</button>
-        <button onclick="setBrandFilter('COLLAGEN CARE')" class="brand-pill px-3.5 py-1.5 rounded-full text-xs font-bold bg-white/90 text-burgundy-800 border border-sakura-300 hover:border-hotpink-500 transition" data-brand="COLLAGEN CARE">COLLAGEN CARE (1)</button>
-      </div>
-    </div>
-
-    <div class="lg:col-span-5">
-      <div class="relative rounded-3xl bg-gradient-to-br from-white/95 via-sakura-50/95 to-sakura-200/90 p-5 sm:p-6 border-2 border-white shadow-card">
-        <div class="flex items-center justify-between gap-2 mb-3">
-          <span class="px-3 py-1 rounded-full bg-burgundy-800 text-white text-[11px] font-bold tracking-wider uppercase">
-            SEOUL CRUSH • K-BEAUTY
-          </span>
-          <span class="brush-badge px-3 py-1 text-white text-xs font-bold">
-            @seoulcrush.cy ♡
-          </span>
+  <!-- STICKY HEADER -->
+  <header class="sticky top-0 z-40 bg-sakura-100/90 backdrop-blur-md border-b border-sakura-300/80 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 sm:h-24 flex items-center justify-between gap-4">
+      
+      <!-- Brand Logo -->
+      <a href="#explore" class="flex items-center gap-3.5 group">
+        <div class="logo-crop-wrapper w-16 h-16 sm:w-20 sm:h-20 flex-shrink-0">
+          <img src="89a6f547-cc85-4e7b-98b8-5ce682d6345c.png" alt="Seoul Crush CY Logo" class="absolute inset-0 w-full h-full object-cover" />
         </div>
-
-        <div id="heroSpotlightCard" class="cursor-pointer" onclick="openQuickView(1)"></div>
-
-        <div class="flex items-center justify-between mt-4 pt-3 border-t border-sakura-300/60">
-          <span class="text-xs font-bold text-burgundy-700">✨ Best-Seller Spotlight</span>
-          <div id="heroDots" class="flex items-center gap-1.5"></div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="font-serif font-bold text-2xl sm:text-3xl tracking-tight text-burgundy-900">SEOUL</span>
+            <span class="font-script font-bold text-2xl sm:text-3xl text-hotpink-500 -ml-1">CRUSH</span>
+            <span class="text-hotpink-500 text-lg">♡</span>
+          </div>
+          <p class="text-[11px] sm:text-xs font-semibold text-burgundy-700 tracking-wide">
+            K-BEAUTY • K-POP • K-DRAMA • KOREAN FINDS
+          </p>
         </div>
+      </a>
+
+      <!-- Center Navigation -->
+      <nav class="hidden lg:flex items-center gap-1 bg-white/80 p-1.5 rounded-full border border-sakura-300 shadow-sm">
+        <a href="#explore" class="px-4 py-2 rounded-full text-sm font-bold bg-burgundy-800 text-white shadow-sm transition">
+          🌸 Προϊόντα (10)
+        </a>
+        <a href="#brands" class="px-4 py-2 rounded-full text-sm font-semibold text-burgundy-800 hover:bg-sakura-200/70 transition">
+          ✨ Αποστολές & Πληρωμές
+        </a>
+      </nav>
+
+      <!-- Actions -->
+      <div class="flex items-center gap-2.5">
+        <!-- TikTok Button Only -->
+        <a href="https://www.tiktok.com/@seoulcrush.cy?_r=1&_t=ZN-9BHbuYl4ooY" target="_blank" rel="noopener"
+           class="px-3.5 py-2 rounded-full bg-white border border-sakura-300 text-xs font-extrabold text-burgundy-800 hover:border-hotpink-500 hover:text-hotpink-500 transition shadow-sm flex items-center gap-1.5"
+           title="TikTok @seoulcrush.cy">
+          <span>🎵 TikTok</span>
+        </a>
+
+        <!-- Cart Drawer Trigger -->
+        <button onclick="toggleCart(true)"
+                class="flex items-center gap-2.5 pl-4 pr-3 py-2 rounded-full bg-burgundy-800 hover:bg-burgundy-700 text-white font-bold text-sm shadow-md transition">
+          <span>Καλάθι</span>
+          <span id="cartCountBadge" class="px-2 py-0.5 rounded-full bg-hotpink-500 text-white text-xs font-extrabold">0</span>
+        </button>
       </div>
     </div>
+  </header>
 
-  </div>
-</div>
-
-
-<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-8">
-  <div>
-    <div class="inline-flex items-center gap-2 text-xs font-extrabold uppercase tracking-widest text-hotpink-600 mb-1">
-      <span>🌸 #EXPLORE CATALOG</span>
-      <span>•</span>
-      <span>10 ΑΥΘΕΝΤΙΚΑ ΠΡΟΪΟΝΤΑ & ΦΩΤΟΓΡΑΦΙΕΣ</span>
-    </div>
-    <h2 class="text-3xl sm:text-4xl font-extrabold text-burgundy-900">
-      Τα Προϊόντα μας στο <span class="text-hotpink-500">@seoulcrush.cy</span>
-    </h2>
-  </div>
-
-  <div class="flex flex-wrap items-center gap-3">
-    <div class="relative flex-grow sm:flex-grow-0 sm:w-72">
-      <input id="searchInput" type="text" oninput="renderCatalog()"
-             placeholder="Αναζήτηση (π.χ. Anua, Rice, Centella)..."
-             class="w-full pl-10 pr-4 py-2.5 rounded-full bg-white border border-sakura-300 text-sm text-burgundy-900 placeholder-burgundy-600/50 focus:outline-none focus:border-hotpink-500 shadow-sm" />
-      <svg class="w-4 h-4 text-burgundy-700 absolute left-3.5 top-1/2 -translate-y-1/2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
-      </svg>
+  <!-- MAIN CATALOG -->
+  <main id="explore" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
+    <div class="mb-8">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-burgundy-900">
+        Αυθεντικά Κορεατικά Προϊόντα <span class="text-hotpink-500">Glass Skin & Glow ♡</span>
+      </h2>
+      <p class="text-sm text-burgundy-800 mt-1">Ανακαλύψτε τα 10 αυθεντικά προϊόντα της @seoulcrush.cy στην Κύπρο.</p>
     </div>
 
-    <select id="sortSelect" onchange="renderCatalog()"
-            class="px-4 py-2.5 rounded-full bg-white border border-sakura-300 text-sm font-bold text-burgundy-800 focus:outline-none focus:border-hotpink-500 shadow-sm">
-      <option value="featured">✨ Προτεινόμενη Σειρά</option>
-      <option value="price-asc">💶 Τιμή: Χαμηλή → Υψηλή</option>
-      <option value="price-desc">💶 Τιμή: Υψηλή → Χαμηλή</option>
-      <option value="brand">🏷️ Αλφαβητικά ανά Brand</option>
-    </select>
-  </div>
-</div>
+    <!-- PRODUCTS GRID -->
+    <div id="productsGrid" class="grid grid-cols-1 md:grid-cols-2 gap-7"></div>
+  </main>
 
-<!-- Category Tabs -->
-<div class="flex flex-wrap items-center justify-between gap-3 pb-6 mb-8 border-b border-sakura-300">
-  <div class="flex flex-wrap items-center gap-2" id="categoryTabs">
-    <button onclick="setCategoryFilter('ALL')" data-cat="ALL" class="cat-tab px-4 py-2 rounded-full text-xs sm:text-sm font-extrabold bg-hotpink-500 text-white shadow-sm transition">
-      Όλα τα Προϊόντα (10)
-    </button>
-    <button onclick="setCategoryFilter('Glow & Brightening Serums')" data-cat="Glow & Brightening Serums" class="cat-tab px-4 py-2 rounded-full text-xs sm:text-sm font-bold bg-white text-burgundy-800 border border-sakura-300 hover:border-hotpink-500 transition">
-      ✨ Glow & Brightening (5)
-    </button>
-    <button onclick="setCategoryFilter('Centella & Barrier Care')" data-cat="Centella & Barrier Care" class="cat-tab px-4 py-2 rounded-full text-xs sm:text-sm font-bold bg-white text-burgundy-800 border border-sakura-300 hover:border-hotpink-500 transition">
-      🌿 Centella & Barrier (2)
-    </button>
-    <button onclick="setCategoryFilter('Essence')" data-cat="Essence" class="cat-tab px-4 py-2 rounded-full text-xs sm:text-sm font-bold bg-white text-burgundy-800 border border-sakura-300 hover:border-hotpink-500 transition">
-      💧 Glass Skin Essence (1)
-    </button>
-    <button onclick="setCategoryFilter('Sun Care')" data-cat="Sun Care" class="cat-tab px-4 py-2 rounded-full text-xs sm:text-sm font-bold bg-white text-burgundy-800 border border-sakura-300 hover:border-hotpink-500 transition">
-      ☀️ Daily Sun Care (1)
-    </button>
-    <button onclick="setCategoryFilter('Eye Care')" data-cat="Eye Care" class="cat-tab px-4 py-2 rounded-full text-xs sm:text-sm font-bold bg-white text-burgundy-800 border border-sakura-300 hover:border-hotpink-500 transition">
-      👁️ Eye Care (1)
-    </button>
-  </div>
-
-  <div id="resultCounter" class="text-xs sm:text-sm font-bold text-burgundy-700">
-    Εμφανίζονται 10 από 10 προϊόντα
-  </div>
-</div>
-
-<!-- PRODUCTS GRID -->
-<div id="productsGrid" class="grid grid-cols-1 md:grid-cols-2 gap-7"></div>
-
-
-    <div class="lg:col-span-7">
-      <div id="routineRecommendationBox" class="bg-sakura-100 text-burgundy-900 rounded-2xl p-5 sm:p-6 border-2 border-gold-400 shadow-lg"></div>
-    </div>
-  </div>
-</div>
-
-
-    <div class="flex flex-wrap items-center gap-3">
-      <a href="https://www.tiktok.com/@seoulcrush.cy?_r=1&_t=ZN-9BHbuYl4ooY" target="_blank" rel="noopener"
-         class="px-4 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs border border-white/20 transition">
-        🎵 TikTok @seoulcrush.cy
-      </a>
-      <a href="#explore" class="brush-badge px-5 py-2.5 text-white font-extrabold text-sm border border-gold-400/60 hover:scale-105 transition">
-        @seoulcrush.cy ♡
-      </a>
-    </div>
-  </div>
-  <div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-sakura-300 gap-2">
+  <!-- FOOTER -->
+  <footer class="bg-burgundy-900 text-sakura-100 border-t-2 border-gold-400/50 mt-12 py-8 text-center text-xs">
     <p>© 2026 Seoul Crush Cyprus (@seoulcrush.cy). All Rights Reserved.</p>
-    <p>Πακέτα: Μικρό (€2,50) & Μεγάλο (€5,00) • Δωρεάν από €50+ • Πληρωμές με Κάρτα, Stripe & Revolut</p>
-  </div>
-</div>
+    <p class="mt-1">Πληρωμές με Κάρτα, Stripe & Revolut • Δωρεάν Αποστολή από €50,00</p>
+  </footer>
 
-
-  <form onsubmit="submitOrder(event)" class="space-y-3.5 text-xs sm:text-sm">
-    <div>
-      <label class="block font-extrabold text-burgundy-900 mb-1">Ονοματεπώνυμο *</label>
-      <input type="text" required placeholder="π.χ. Μαρία Γεωργίου" class="w-full px-3.5 py-2.5 rounded-xl bg-white border border-sakura-300" />
+  <!-- SLIDE-OVER CART DRAWER -->
+  <div id="cartDrawerBackdrop" class="fixed inset-0 z-50 hidden bg-burgundy-950/60 backdrop-blur-sm" onclick="toggleCart(false)"></div>
+  <aside id="cartDrawer" class="fixed top-0 right-0 z-50 h-full w-full max-w-md bg-sakura-50 border-l-2 border-sakura-300 shadow-2xl transform translate-x-full transition-transform duration-300 flex flex-col">
+    <div class="p-5 bg-burgundy-800 text-white flex items-center justify-between">
+      <h3 class="text-lg font-extrabold">Το Καλάθι σας ♡</h3>
+      <button onclick="toggleCart(false)" class="w-9 h-9 rounded-full bg-white/15 flex items-center justify-center font-bold">✕</button>
     </div>
-    <div class="grid grid-cols-2 gap-3">
-      <div>
-        <label class="block font-extrabold text-burgundy-900 mb-1">Τηλέφωνο *</label>
-        <input type="tel" required placeholder="+357 99 123456" class="w-full px-3.5 py-2.5 rounded-xl bg-white border border-sakura-300" />
-      </div>
-      <div>
-        <label class="block font-extrabold text-burgundy-900 mb-1">Πόλη / Επαρχία *</label>
-        <select required class="w-full px-3.5 py-2.5 rounded-xl bg-white border border-sakura-300 font-semibold">
-          <option value="Λευκωσία">Λευκωσία</option>
-          <option value="Λεμεσός">Λεμεσός</option>
-          <option value="Λάρνακα">Λάρνακα</option>
-          <option value="Πάφος">Πάφος</option>
-          <option value="Αμμόχωστος">Αμμόχωστος</option>
-        </select>
-      </div>
-    </div>
-    <div>
-      <label class="block font-extrabold text-burgundy-900 mb-1">Διεύθυνση & Τ.Κ. *</label>
-      <input type="text" required placeholder="Οδός, Αριθμός, Ταχ. Κώδικας" class="w-full px-3.5 py-2.5 rounded-xl bg-white border border-sakura-300" />
-    </div>
+    <div id="cartItemsContainer" class="flex-1 overflow-y-auto p-5 space-y-3"></div>
+  </aside>
 
-    <div class="p-3 rounded-xl bg-white border border-sakura-300 space-y-2">
-      <label class="block font-extrabold text-burgundy-900 text-xs">💳 Τρόπος Πληρωμής:</label>
-      <div class="grid grid-cols-3 gap-2">
-        <button type="button" onclick="selectPaymentMethod('card')" id="pay-btn-card"
-                class="p-2.5 rounded-xl border-2 border-hotpink-500 bg-sakura-100 text-center font-bold text-xs">
-          💳 Κάρτα
-        </button>
-        <button type="button" onclick="selectPaymentMethod('stripe')" id="pay-btn-stripe"
-                class="p-2.5 rounded-xl border-2 border-sakura-300 bg-white text-center font-bold text-xs">
-          Stripe
-        </button>
-        <button type="button" onclick="selectPaymentMethod('revolut')" id="pay-btn-revolut"
-                class="p-2.5 rounded-xl border-2 border-sakura-300 bg-white text-center font-bold text-xs">
-          Revolut
-        </button>
-      </div>
-    </div>
+  <script>
+    const PRODUCTS = [
+      {
+        id: 1,
+        brand: "ANUA",
+        name: "Peach 70 Niacin Serum",
+        subtitle: "Niacinamide • 30 ml",
+        price: 24.90,
+        priceFormatted: "€24,90",
+        badgeText: "Με 70% Ροδάκινο + Niacinamide",
+        imageFile: "ChatGPT Image 9 Nov 2026, 18_02_32-1.png",
+        benefits: [{ icon: "💧", text: "Λάμψη & ενυδάτωση" }, { icon: "✨", text: "Βοηθά σε θαμπή όψη" }]
+      },
+      {
+        id: 2,
+        brand: "BEAUTY OF JOSEON",
+        name: "Relief Sun",
+        subtitle: "Rice + Probiotics • 50 ml",
+        price: 22.90,
+        priceFormatted: "€22,90",
+        badgeText: "Με Ρύζι + Probiotics",
+        imageFile: "ChatGPT Image 9 Nov 2026, 18_02_35-2.png",
+        benefits: [{ icon: "☀️", text: "Αντηλιακή προστασία" }, { icon: "🪶", text: "Ελαφριά, άνετη υφή" }]
+      },
+      {
+        id: 3,
+        brand: "COLLAGEN CARE",
+        name: "Collagen Lifting Eye Cream",
+        subtitle: "15 ml",
+        price: 34.90,
+        priceFormatted: "€34,90",
+        badgeText: "Collagen Eye Care",
+        imageFile: "ChatGPT Image 9 Nov 2026, 18_02_38-3.png",
+        benefits: [{ icon: "👁️", text: "Φροντίδα ματιών" }, { icon: "💧", text: "Λεία αίσθηση" }]
+      },
+      {
+        id: 4,
+        brand: "BEAUTY OF JOSEON",
+        name: "Glow Serum",
+        subtitle: "Propolis + Niacinamide • 30 ml",
+        price: 21.90,
+        priceFormatted: "€21,90",
+        badgeText: "Glow care serum",
+        imageFile: "ChatGPT Image 9 Nov 2026, 18_02_41-4.png",
+        benefits: [{ icon: "💧", text: "Λάμψη & θρέψη" }]
+      },
+      {
+        id: 5,
+        brand: "AXIS-Y",
+        name: "Dark Spot Correcting Glow Serum",
+        subtitle: "50 ml",
+        price: 25.90,
+        priceFormatted: "€25,90",
+        badgeText: "Niacinamide glow care",
+        imageFile: "ChatGPT Image 9 Nov 2026, 18_02_43-5.png",
+        benefits: [{ icon: "🫧", text: "Βοηθά σε σημάδια" }]
+      },
+      {
+        id: 6,
+        brand: "SKIN1004",
+        name: "Probio-Cica Enrich Cream",
+        subtitle: "Madagascar Centella • 50 ml",
+        price: 26.90,
+        priceFormatted: "€26,90",
+        badgeText: "Με Probio-Cica",
+        imageFile: "ChatGPT Image 9 Nov 2026, 18_02_45-6.png",
+        benefits: [{ icon: "💧", text: "Πλούσια ενυδάτωση" }]
+      },
+      {
+        id: 7,
+        brand: "MIXSOON",
+        name: "Bean Essence Jumbo",
+        subtitle: "Fermented Soybean • 50 ml",
+        price: 24.90,
+        priceFormatted: "€24,90",
+        badgeText: "Με ζυμωμένη Σόγια",
+        imageFile: "ChatGPT Image 9 Nov 2026, 18_03_22.png",
+        benefits: [{ icon: "💧", text: "Ενυδάτωση σε βάθος" }]
+      },
+      {
+        id: 8,
+        brand: "BEAUTY OF JOSEON",
+        name: "Glow Deep Serum",
+        subtitle: "Rice + Alpha-Arbutin • 30 ml",
+        price: 19.90,
+        priceFormatted: "€19,90",
+        badgeText: "Με Ρύζι + Alpha-Arbutin",
+        imageFile: "ChatGPT Image 9 Nov 2026, 18_03_51-2.png",
+        benefits: [{ icon: "✨", text: "Λάμψη & ομοιόμορφη όψη" }]
+      },
+      {
+        id: 9,
+        brand: "BEAUTY OF JOSEON",
+        name: "Light On Serum",
+        subtitle: "Centella + Vita C • 30 ml",
+        price: 19.90,
+        priceFormatted: "€19,90",
+        badgeText: "Με Centella + Vita C",
+        imageFile: "viber_image_2026-11-08_12-27-49-900.jpg",
+        benefits: [{ icon: "✨", text: "Φωτεινή όψη" }]
+      },
+      {
+        id: 10,
+        brand: "SKIN1004",
+        name: "Centella Ampoule",
+        subtitle: "Madagascar Centella • 55 ml",
+        price: 16.90,
+        priceFormatted: "€16,90",
+        badgeText: "Με Madagascar Centella",
+        imageFile: "89a6f547-cc85-4e7b-98b8-5ce682d6345c.png",
+        benefits: [{ icon: "🌿", text: "Άμεση καταπράυνση" }]
+      }
+    ];
 
-    <div class="p-4 rounded-2xl bg-burgundy-900 text-white flex items-center justify-between">
-      <div>
-        <span class="text-xs text-sakura-200" id="checkoutSummarySubtext">Σύνολο + Πακέτο</span>
-        <span class="block font-bold">Πληρωμή:</span>
-      </div>
-      <span id="checkoutModalFinalTotal" class="text-xl font-extrabold text-gold-300">€0,00</span>
-    </div>
+    let cart = [];
 
-    <button type="submit" class="w-full py-3 rounded-full bg-hotpink-500 hover:bg-hotpink-600 text-white font-extrabold text-sm shadow-md transition">
-      Επιβεβαίωση Παραγγελίας ♡
-    </button>
-  </form>
-</div>
+    function renderCatalog() {
+      const grid = document.getElementById("productsGrid");
+      grid.innerHTML = PRODUCTS.map(p => `
+        <article class="rounded-3xl bg-white border-2 border-sakura-300 p-5 shadow-card flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-bold text-hotpink-600 uppercase">${p.brand}</span>
+            <h3 class="text-xl font-extrabold text-burgundy-900">${p.name}</h3>
+            <p class="text-xs text-burgundy-700">${p.subtitle}</p>
+          </div>
+          <div class="my-4 rounded-2xl overflow-hidden bg-sakura-100 border border-sakura-300">
+            <img src="${p.imageFile}" alt="${p.name}" class="w-full h-auto object-cover" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'250\'><rect width=\'100%\' height=\'100%\' fill=\'%23FDF0F5\'/><text x=\'50%\' y=\'50%\' font-size=\'18\' fill=\'%235A0821\' text-anchor=\'middle\'>${p.name}</text></svg>'" />
+          </div>
+          <div class="flex items-center justify-between pt-3 border-t border-sakura-200">
+            <span class="burgundy-price-badge px-4 py-1.5 rounded-full text-white font-extrabold text-lg">${p.priceFormatted}</span>
+            <button onclick="addToCart(${p.id})" class="px-4 py-2 rounded-full bg-hotpink-500 text-white font-extrabold text-xs">+ Καλάθι</button>
+          </div>
+        </article>
+      `).join("");
+    }
 
+    function addToCart(id) {
+      const p = PRODUCTS.find(item => item.id === id);
+      cart.push(p);
+      document.getElementById("cartCountBadge").textContent = cart.length;
+      alert(`Προστέθηκε στο καλάθι: ${p.name}`);
+    }
 
-<div class="px-5 py-3 bg-sakura-200/70 border-b border-sakura-300">
-  <p id="freeShippingText" class="text-xs font-bold text-burgundy-800 mb-1.5"></p>
-  <div class="w-full h-2 rounded-full bg-white overflow-hidden">
-    <div id="freeShippingBar" class="h-full bg-gradient-to-r from-hotpink-500 to-burgundy-700 transition-all duration-300" style="width: 0%"></div>
-  </div>
-</div>
+    function toggleCart(open) {
+      const drawer = document.getElementById("cartDrawer");
+      const backdrop = document.getElementById("cartDrawerBackdrop");
+      if (open) { backdrop.classList.remove("hidden"); drawer.classList.remove("translate-x-full"); }
+      else { backdrop.classList.add("hidden"); drawer.classList.add("translate-x-full"); }
+    }
 
-<!-- SHIPPING PACKAGE SELECTOR -->
-<div class="p-4 bg-sakura-100 border-b border-sakura-300">
-  <label class="block text-[11px] font-extrabold uppercase text-burgundy-900 mb-2">
-    📦 Επιλογή Πακέτου Αποστολής:
-  </label>
-  <div class="grid grid-cols-2 gap-2">
-    <button type="button" onclick="setShippingPackage('small')" id="pkg-small-btn"
-            class="p-2.5 rounded-xl border-2 text-left transition flex flex-col justify-between">
-      <span class="text-xs font-extrabold text-burgundy-900">Μικρό Πακέτο</span>
-      <span class="text-[11px] font-semibold text-burgundy-700">1–2 προϊόντα • <strong>€2,50</strong></span>
-    </button>
-    <button type="button" onclick="setShippingPackage('large')" id="pkg-large-btn"
-            class="p-2.5 rounded-xl border-2 text-left transition flex flex-col justify-between">
-      <span class="text-xs font-extrabold text-burgundy-900">Μεγάλο Πακέτο</span>
-      <span class="text-[11px] font-semibold text-burgundy-700">3+ προϊόντα • <strong>€5,00</strong></span>
-    </button>
-  </div>
-</div>
-
-<div id="cartItemsContainer" class="flex-1 overflow-y-auto p-5 space-y-3"></div>
-
-<div class="p-5 bg-white border-t border-sakura-300 space-y-3">
-  <div class="space-y-1 text-xs font-bold text-burgundy-800">
-    <div class="flex justify-between">
-      <span>Προϊόντα:</span>
-      <span id="cartSubtotalValue">€0,00</span>
-    </div>
-    <div class="flex justify-between">
-      <span id="cartShippingLabel">Αποστολή (Μικρό):</span>
-      <span id="cartShippingValue">€2,50</span>
-    </div>
-    <div class="flex items-center justify-between text-base font-extrabold text-burgundy-900 pt-1.5 border-t border-sakura-200">
-      <span>Τελικό Σύνολο:</span>
-      <span id="cartTotalValue" class="text-xl text-hotpink-600">€0,00</span>
-    </div>
-  </div>
-  <button onclick="openCheckoutModal()" class="w-full py-3.5 rounded-full bg-gradient-to-r from-burgundy-800 via-hotpink-600 to-burgundy-800 text-white font-extrabold text-sm shadow-lg hover:opacity-95 transition">
-    Ολοκλήρωση & Πληρωμή (Κάρτα / Stripe / Revolut) →
-  </button>
-</div>
+    window.addEventListener("DOMContentLoaded", renderCatalog);
+  </script>
+</body>
+</html>
