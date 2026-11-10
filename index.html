@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Seoul Crush CY — K-Beauty • K-Pop • K-Drama • Korean Finds (@seoulcrush.cy)</title>
+  <meta name="description" content="🌸 Seoul Crush CY — K-Beauty & Lifestyle Store ✨ Your ultimate destination for authentic Korean skincare in Cyprus! Καλώς ήρθατε στο Seoul Crush CY, τον προορισμό σας στην Κύπρο για τα πιο δημοφιλή και αυθεντικά κορεατικά προϊόντα ομορφιάς και περιποίησης επιδερμίδας (K-Beauty) από τη Σεούλ! 🇰🇷♡" />
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,25 +54,16 @@
     }
   </script>
   <style>
-    :root {
-      --bg-sakura: #FDF0F5;
-      --burgundy: #5A0821;
-      --hotpink: #FF146A;
-      --gold: #E5B85B;
-    }
     body {
       background: radial-gradient(circle at 15% 10%, #FFE5F0 0%, #FDF0F5 45%, #FCE8F0 100%);
       color: #420417;
       font-family: 'Plus Jakarta Sans', sans-serif;
       overflow-x: hidden;
     }
-    /* Custom Scrollbar */
     ::-webkit-scrollbar { width: 8px; height: 8px; }
     ::-webkit-scrollbar-track { background: #FDF0F5; }
     ::-webkit-scrollbar-thumb { background: #F297BC; border-radius: 9999px; }
     ::-webkit-scrollbar-thumb:hover { background: #5A0821; }
-
-    /* Script pink pill ribbon like in the promo cards */
     .pink-script-ribbon {
       background: linear-gradient(90deg, #FF0F67 0%, #FF2A79 100%);
       border-radius: 9999px;
@@ -79,20 +71,17 @@
       box-shadow: 0 6px 16px rgba(255, 20, 106, 0.28);
     }
 
-    /* Gold-bordered burgundy price badge */
     .burgundy-price-badge {
       background: radial-gradient(circle at 30% 25%, #820D32 0%, #5A0821 70%, #3E0416 100%);
       border: 2.5px solid #E5B85B;
       box-shadow: 0 8px 20px rgba(90, 8, 33, 0.35), 0 0 0 2px rgba(246, 224, 153, 0.45);
     }
 
-    /* Brush stroke @seoulcrush.cy badge */
     .brush-badge {
       background: linear-gradient(95deg, #6D0929 0%, #5A0821 85%, #7B0C30 100%);
       border-radius: 28px 12px 24px 10px;
     }
 
-    /* Circular Logo Crop from uploaded image + SVG fallback */
     .logo-crop-wrapper {
       position: relative;
       border-radius: 9999px;
@@ -102,7 +91,6 @@
       background: radial-gradient(circle at 50% 42%, #FFFDF9 0%, #FFEAF2 68%, #F9C6DA 100%);
     }
 
-    /* Floating Sakura Petals Animation */
     @keyframes floatPetal {
       0%, 100% { transform: translateY(0px) rotate(0deg); }
       50% { transform: translateY(-8px) rotate(6deg); }
@@ -110,36 +98,30 @@
     .animate-petal {
       animation: floatPetal 5s ease-in-out infinite;
     }
-  </style>
+</style>
 </head>
 <body class="antialiased selection:bg-hotpink-500 selection:text-white">
-
   <!-- TOP ANNOUNCEMENT BAR -->
-  <div class="bg-burgundy-800 text-white text-xs sm:text-sm py-2.5 px-4 border-b border-gold-400/40 relative z-50">
+<div class="bg-burgundy-800 text-white text-xs sm:text-sm py-2.5 px-4 border-b border-gold-400/40 relative z-50">
     <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
       <div class="flex items-center gap-2 font-medium">
-        <span class="inline-block px-2 py-0.5 rounded-full bg-hotpink-500 text-white text-[11px] font-bold tracking-wider uppercase">SEOUL CRUSH • K-BEAUTY</span>
-        <span>🌸 Αυθεντικά Κορεατικά Προϊόντα στην Κύπρο • Δωρεάν Παράδοση άνω των €45!</span>
+        <span class="inline-block px-2.5 py-0.5 rounded-full bg-hotpink-500 text-white text-[11px] font-bold tracking-wider uppercase">SEOUL CRUSH • K-BEAUTY</span>
+        <span>🌸 Αποστολή Κύπρο: Μικρό €2,50 | Μεγάλο €5,00 | <strong>ΔΩΡΕΑΝ από €50+</strong>!</span>
       </div>
       <div class="flex items-center gap-4 text-xs font-semibold">
-        <a href="https://instagram.com/seoulcrush.cy" target="_blank" rel="noopener" class="flex items-center gap-1 text-sakura-200 hover:text-white transition">
-          <span>💖 @seoulcrush.cy</span>
-        </a>
+        <span class="text-gold-300">💳 Κάρτα • Stripe • Revolut</span>
         <span class="text-white/30">|</span>
-        <span class="text-gold-300">🇰🇷 100% Authentic Korean Finds</span>
+        <a href="https://www.tiktok.com/@seoulcrush.cy?_r=1&_t=ZN-9BHbuYl4ooY" target="_blank" rel="noopener" class="text-sakura-200 hover:text-white transition flex items-center gap-1 font-bold">
+          <span>🎵 TikTok @seoulcrush.cy</span>
+        </a>
       </div>
     </div>
   </div>
-
-  <!-- STICKY HEADER WITH OFFICIAL LOGO -->
-  <header class="sticky top-0 z-40 bg-sakura-100/90 backdrop-blur-md border-b border-sakura-300/80 shadow-sm">
+  <!-- STICKY HEADER -->
+<header class="sticky top-0 z-40 bg-sakura-100/90 backdrop-blur-md border-b border-sakura-300/80 shadow-sm">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 sm:h-24 flex items-center justify-between gap-4">
-      
-      <!-- Brand Logo & Name -->
       <a href="#explore" class="flex items-center gap-3.5 group">
-        <!-- Exact Circular Logo (uses image crop if local file is available + ultra-crisp vector rendition) -->
         <div class="logo-crop-wrapper w-16 h-16 sm:w-20 sm:h-20 flex-shrink-0 group-hover:scale-105 transition-transform duration-300">
-          <!-- High-precision SVG replica of the exact Seoul Crush circular emblem -->
           <svg viewBox="0 0 220 220" class="w-full h-full">
             <defs>
               <radialGradient id="logoBg" cx="50%" cy="45%" r="55%">
@@ -153,13 +135,11 @@
               </linearGradient>
             </defs>
             <circle cx="110" cy="110" r="108" fill="url(#logoBg)"/>
-            <!-- Sakura branch top-left -->
             <path d="M15,75 Q45,42 95,20" stroke="#6D213C" stroke-width="2.5" fill="none"/>
             <circle cx="38" cy="52" r="11" fill="#FF9EBB"/>
             <circle cx="58" cy="36" r="10" fill="#FFB8CE"/>
             <circle cx="78" cy="25" r="8" fill="#FF8DA9"/>
             <circle cx="24" cy="68" r="9" fill="#FFB8CE"/>
-            <!-- South Korea Flag top-right -->
             <g transform="translate(148, 22) rotate(14)">
               <rect x="0" y="0" width="32" height="21" rx="2" fill="#FFFFFF" stroke="#E2C7D0" stroke-width="0.8"/>
               <circle cx="16" cy="10.5" r="5.2" fill="#CD2E3A"/>
@@ -169,39 +149,27 @@
               <line x1="6" y1="17" x2="9" y2="14" stroke="#000" stroke-width="1.2"/>
               <line x1="23" y1="17" x2="26" y2="14" stroke="#000" stroke-width="1.2"/>
             </g>
-            <!-- Gold Crown -->
             <path d="M97,46 L102,36 L110,43 L118,36 L123,46 Z" fill="#F6D365" stroke="#B7791F" stroke-width="1.5"/>
-            <!-- SEOUL text -->
             <text x="103" y="76" text-anchor="middle" font-family="Cormorant Garamond, serif" font-weight="700" font-size="38" fill="#1F0812" letter-spacing="1">SEOUL</text>
-            <!-- Heart next to SEOUL -->
             <path d="M162,55 C162,49 170,47 173,53 C176,47 184,49 184,55 C184,63 173,69 173,73 C173,69 162,63 162,55 Z" fill="none" stroke="#D90452" stroke-width="2.5"/>
-            <!-- CRUSH text -->
             <text x="110" y="102" text-anchor="middle" font-family="Caveat, cursive" font-weight="700" font-size="39" fill="#E6005C" letter-spacing="0.5">CRUSH</text>
-            <!-- Small Heart Loop under CRUSH -->
             <path d="M82,107 Q110,117 138,107" stroke="#E6005C" stroke-width="2" fill="none"/>
-            <!-- Hanok Roof on left -->
             <path d="M8,132 Q32,138 52,145 L45,152 L10,145 Z" fill="#3B1D2E"/>
             <path d="M12,145 L42,150 L40,166 L14,162 Z" fill="#C86D51"/>
-            <!-- N Seoul Tower on right -->
             <line x1="192" y1="88" x2="192" y2="155" stroke="#7A1C3E" stroke-width="2.2"/>
             <rect x="187" y="122" width="10" height="7" rx="1.5" fill="#D90452"/>
-            <!-- 4 Category Icons Row -->
             <text x="64" y="148" text-anchor="middle" font-size="7" font-weight="800" fill="#4A061B">K-BEAUTY</text>
             <text x="95" y="148" text-anchor="middle" font-size="7" font-weight="800" fill="#4A061B">K-POP</text>
             <text x="125" y="148" text-anchor="middle" font-size="7" font-weight="800" fill="#4A061B">K-DRAMA</text>
             <text x="156" y="148" text-anchor="middle" font-size="7" font-weight="800" fill="#4A061B">KOREAN</text>
             <text x="125" y="155" text-anchor="middle" font-size="5.5" font-weight="700" fill="#6D0929">FINDS</text>
             <text x="156" y="155" text-anchor="middle" font-size="5.5" font-weight="700" fill="#6D0929">FINDS</text>
-            <!-- @seoulcrush.cy Burgundy Pill -->
             <rect x="64" y="162" width="92" height="17" rx="8.5" fill="#7B0C30"/>
             <text x="110" y="173.5" text-anchor="middle" font-size="9.5" font-weight="700" fill="#FFFFFF">@seoulcrush.cy</text>
-            <!-- Bottom skyline & blossoms -->
             <path d="M35,195 L35,182 L48,182 L48,195 L65,195 L65,178 L78,178 L78,195 L145,195 L145,180 L160,180 L160,195 Z" fill="url(#skylineGrad)"/>
           </svg>
-          <!-- Overlay real cropped logo from the first uploaded card if accessible -->
-          <img src="ChatGPT Image 9 Nov 2026, 18_02_32-1.png" alt="Seoul Crush CY Logo"
+          <img src="89a6f547-cc85-4e7b-98b8-5ce682d6345c.png" alt="Seoul Crush CY Logo"
                class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-300"
-               style="object-position: 96.5% 11%; transform: scale(4.95); transform-origin: 89% 19%;"
                onload="this.classList.remove('opacity-0')"
                onerror="this.remove()" />
         </div>
@@ -218,7 +186,6 @@
         </div>
       </a>
 
-      <!-- Center Navigation -->
       <nav class="hidden lg:flex items-center gap-1 bg-white/80 p-1.5 rounded-full border border-sakura-300 shadow-sm">
         <a href="#explore" class="px-4 py-2 rounded-full text-sm font-bold bg-burgundy-800 text-white shadow-sm transition">
           🌸 Explore Προϊόντα (10)
@@ -231,17 +198,21 @@
         </a>
       </nav>
 
-      <!-- Actions: View Mode Switcher, Search, Wishlist, Cart -->
       <div class="flex items-center gap-2.5">
-        <!-- Toggle Promo Card vs Studio Bottle View -->
         <button id="viewModeToggle" onclick="toggleCardDesignMode()" 
                 class="hidden sm:flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-white border border-sakura-300 text-xs font-bold text-burgundy-800 hover:border-hotpink-500 shadow-sm transition"
-                title="Εναλλαγή εμφάνισης καρτών">
+                title="Εναλλαγή προβολής">
           <span id="viewModeIcon">🖼️</span>
           <span id="viewModeLabel">Full Promo Cards</span>
         </button>
 
-        <!-- Wishlist Button -->
+        <!-- TikTok Button -->
+        <a href="https://www.tiktok.com/@seoulcrush.cy?_r=1&_t=ZN-9BHbuYl4ooY" target="_blank" rel="noopener"
+           class="px-3.5 py-2 rounded-full bg-white border border-sakura-300 text-xs font-extrabold text-burgundy-800 hover:border-hotpink-500 hover:text-hotpink-500 transition shadow-sm flex items-center gap-1.5"
+           title="TikTok @seoulcrush.cy">
+          <span>🎵 TikTok</span>
+        </a>
+
         <button onclick="filterByWishlist()" id="wishlistBtn"
                 class="relative p-2.5 rounded-full bg-white border border-sakura-300 text-burgundy-800 hover:border-hotpink-500 hover:text-hotpink-500 transition shadow-sm"
                 title="Αγαπημένα">
@@ -251,7 +222,6 @@
           <span id="wishlistCount" class="hidden absolute -top-1 -right-1 w-5 h-5 rounded-full bg-hotpink-500 text-white text-[11px] font-bold flex items-center justify-center">0</span>
         </button>
 
-        <!-- Cart Drawer Trigger -->
         <button onclick="toggleCart(true)"
                 class="flex items-center gap-2.5 pl-4 pr-3 py-2 rounded-full bg-burgundy-800 hover:bg-burgundy-700 text-white font-bold text-sm shadow-md transition">
           <span>Καλάθι</span>
@@ -259,37 +229,11 @@
         </button>
       </div>
     </div>
-  </header>
-
-  <!-- HERO BANNER IN EXACT SEOUL CRUSH SAKURA STYLE -->
-  <section class="relative overflow-hidden py-10 sm:py-14 border-b border-sakura-300/80">
-    <!-- Decorative Cherry Blossoms SVG in corners -->
-    <div class="pointer-events-none select-none absolute top-0 right-0 w-72 sm:w-96 opacity-60 animate-petal">
-      <svg viewBox="0 0 300 220" fill="none">
-        <path d="M300,0 Q210,45 120,25 M240,25 Q195,85 140,95" stroke="#6D1A36" stroke-width="3.5" stroke-linecap="round"/>
-        <!-- Sakura flowers -->
-        <g transform="translate(155, 28)">
-          <circle cx="0" cy="-14" r="11" fill="#FFB7CE"/><circle cx="13" cy="-4" r="11" fill="#FFC8DA"/>
-          <circle cx="8" cy="11" r="11" fill="#FFA6C2"/><circle cx="-8" cy="11" r="11" fill="#FFC8DA"/>
-          <circle cx="-13" cy="-4" r="11" fill="#FFB7CE"/><circle cx="0" cy="0" r="5" fill="#D90452"/>
-        </g>
-        <g transform="translate(215, 58) scale(0.85)">
-          <circle cx="0" cy="-14" r="11" fill="#FFD1E0"/><circle cx="13" cy="-4" r="11" fill="#FFB7CE"/>
-          <circle cx="8" cy="11" r="11" fill="#FFC8DA"/><circle cx="-8" cy="11" r="11" fill="#FFB7CE"/>
-          <circle cx="-13" cy="-4" r="11" fill="#FFD1E0"/><circle cx="0" cy="0" r="5" fill="#D90452"/>
-        </g>
-        <g transform="translate(135, 92) scale(0.75)">
-          <circle cx="0" cy="-14" r="11" fill="#FFB7CE"/><circle cx="13" cy="-4" r="11" fill="#FFC8DA"/>
-          <circle cx="8" cy="11" r="11" fill="#FFA6C2"/><circle cx="-8" cy="11" r="11" fill="#FFC8DA"/>
-          <circle cx="-13" cy="-4" r="11" fill="#FFB7CE"/><circle cx="0" cy="0" r="5" fill="#D90452"/>
-        </g>
-      </svg>
-    </div>
-
+</header>
+  <!-- HERO BANNER -->
+<section class="relative overflow-hidden py-10 sm:py-14 border-b border-sakura-300/80">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
       <div class="grid lg:grid-cols-12 gap-8 items-center">
-        
-        <!-- Left Column: Brand Messaging -->
         <div class="lg:col-span-7 space-y-5">
           <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-burgundy-800 text-white text-xs sm:text-sm font-extrabold tracking-widest uppercase shadow-sm">
             <span>SEOUL CRUSH</span>
@@ -306,10 +250,21 @@
 
           <p class="text-base sm:text-lg text-burgundy-800/90 max-w-2xl font-medium leading-relaxed">
             Ανακαλύψτε τα 10 επιλεγμένα best-sellers της <strong>@seoulcrush.cy</strong> από τις κορυφαίες κορεατικές μάρκες 
-            <strong>Beauty of Joseon, SKIN1004, Anua, AXIS-Y, Mixsoon & Collagen Care</strong> — στις ακριβείς τιμές και συνθέσεις μας.
+            <strong>Beauty of Joseon, SKIN1004, Anua, AXIS-Y, Mixsoon & Collagen Care</strong>.
           </p>
 
-          <!-- Brand Quick-Pills -->
+          <div class="flex flex-wrap items-center gap-3 py-1">
+            <span class="px-3 py-1.5 rounded-xl bg-white border border-sakura-300 text-xs font-extrabold text-burgundy-900 shadow-sm">
+              📦 Μικρό: €2,50 | Μεγάλο: €5,00
+            </span>
+            <span class="px-3 py-1.5 rounded-xl bg-hotpink-500 text-white text-xs font-extrabold shadow-sm">
+              ★ ΔΩΡΕΑΝ Αποστολή από €50+
+            </span>
+            <span class="px-3 py-1.5 rounded-xl bg-white border border-sakura-300 text-xs font-extrabold text-burgundy-900 shadow-sm">
+              💳 Κάρτα • Stripe • Revolut
+            </span>
+          </div>
+
           <div id="brands" class="flex flex-wrap items-center gap-2 pt-1">
             <span class="text-xs font-bold uppercase tracking-wider text-burgundy-700 mr-1">Brands μας:</span>
             <button onclick="setBrandFilter('ALL')" class="brand-pill active-brand px-3.5 py-1.5 rounded-full text-xs font-extrabold bg-burgundy-800 text-white transition" data-brand="ALL">Όλα (10)</button>
@@ -322,7 +277,6 @@
           </div>
         </div>
 
-        <!-- Right Column: Featured Hero Spotlight Carousel / Card -->
         <div class="lg:col-span-5">
           <div class="relative rounded-3xl bg-gradient-to-br from-white/95 via-sakura-50/95 to-sakura-200/90 p-5 sm:p-6 border-2 border-white shadow-card">
             <div class="flex items-center justify-between gap-2 mb-3">
@@ -334,12 +288,8 @@
               </span>
             </div>
 
-            <!-- Interactive Hero Slide Container -->
-            <div id="heroSpotlightCard" class="cursor-pointer" onclick="openQuickView(1)">
-              <!-- Populated dynamically by JS -->
-            </div>
+            <div id="heroSpotlightCard" class="cursor-pointer" onclick="openQuickView(1)"></div>
 
-            <!-- Carousel Dots -->
             <div class="flex items-center justify-between mt-4 pt-3 border-t border-sakura-300/60">
               <span class="text-xs font-bold text-burgundy-700">✨ Best-Seller Spotlight</span>
               <div id="heroDots" class="flex items-center gap-1.5"></div>
@@ -349,25 +299,21 @@
 
       </div>
     </div>
-  </section>
-
+</section>
   <!-- MAIN #EXPLORE CATALOG SECTION -->
-  <main id="explore" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
-    
-    <!-- Section Title & Search/Filter Controls -->
+<main id="explore" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
     <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-8">
       <div>
         <div class="inline-flex items-center gap-2 text-xs font-extrabold uppercase tracking-widest text-hotpink-600 mb-1">
           <span>🌸 #EXPLORE CATALOG</span>
           <span>•</span>
-          <span>10 ΑΥΘΕΝΤΙΚΑ ΠΡΟΪΟΝΤΑ</span>
+          <span>10 ΑΥΘΕΝΤΙΚΕΣ ΚΑΡΤΕΣ & ΜΙΚΡΕΣ ΦΩΤΟΓΡΑΦΙΕΣ</span>
         </div>
         <h2 class="text-3xl sm:text-4xl font-extrabold text-burgundy-900">
           Τα Προϊόντα μας στο <span class="text-hotpink-500">@seoulcrush.cy</span>
         </h2>
       </div>
 
-      <!-- Search + Sort -->
       <div class="flex flex-wrap items-center gap-3">
         <div class="relative flex-grow sm:flex-grow-0 sm:w-72">
           <input id="searchInput" type="text" oninput="renderCatalog()"
@@ -388,17 +334,16 @@
       </div>
     </div>
 
-    <!-- Category & Skin Benefit Filter Tabs -->
     <div class="flex flex-wrap items-center justify-between gap-3 pb-6 mb-8 border-b border-sakura-300">
       <div class="flex flex-wrap items-center gap-2" id="categoryTabs">
         <button onclick="setCategoryFilter('ALL')" data-cat="ALL" class="cat-tab px-4 py-2 rounded-full text-xs sm:text-sm font-extrabold bg-hotpink-500 text-white shadow-sm transition">
           Όλα τα Προϊόντα (10)
         </button>
         <button onclick="setCategoryFilter('Glow & Brightening Serums')" data-cat="Glow & Brightening Serums" class="cat-tab px-4 py-2 rounded-full text-xs sm:text-sm font-bold bg-white text-burgundy-800 border border-sakura-300 hover:border-hotpink-500 transition">
-          ✨ Glow & Brightening Serums (5)
+          ✨ Glow & Brightening (5)
         </button>
         <button onclick="setCategoryFilter('Centella & Barrier Care')" data-cat="Centella & Barrier Care" class="cat-tab px-4 py-2 rounded-full text-xs sm:text-sm font-bold bg-white text-burgundy-800 border border-sakura-300 hover:border-hotpink-500 transition">
-          🌿 Centella & Barrier Care (2)
+          🌿 Centella & Barrier (2)
         </button>
         <button onclick="setCategoryFilter('Essence')" data-cat="Essence" class="cat-tab px-4 py-2 rounded-full text-xs sm:text-sm font-bold bg-white text-burgundy-800 border border-sakura-300 hover:border-hotpink-500 transition">
           💧 Glass Skin Essence (1)
@@ -416,15 +361,11 @@
       </div>
     </div>
 
-    <!-- PRODUCTS GRID (Replica of the 10 Seoul Crush Promo Cards) -->
-    <div id="productsGrid" class="grid grid-cols-1 md:grid-cols-2 gap-7">
-      <!-- Populated by JavaScript -->
-    </div>
-
-  </main>
-
-  <!-- K-BEAUTY ROUTINE BUILDER WITH OUR 10 PRODUCTS -->
-  <section id="routine-quiz" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <!-- PRODUCTS GRID -->
+    <div id="productsGrid" class="grid grid-cols-1 md:grid-cols-2 gap-7"></div>
+</main>
+  <!-- K-BEAUTY ROUTINE BUILDER -->
+<section id="routine-quiz" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <div class="rounded-3xl bg-gradient-to-br from-burgundy-900 via-burgundy-800 to-burgundy-700 text-white p-6 sm:p-10 shadow-xl border-2 border-gold-400/50 relative overflow-hidden">
       <div class="grid lg:grid-cols-12 gap-8 items-center relative z-10">
         <div class="lg:col-span-5 space-y-4">
@@ -432,10 +373,10 @@
             SEOUL CRUSH ROUTINE FINDER ♡
           </span>
           <h3 class="text-3xl sm:text-4xl font-extrabold leading-tight">
-            Βρες τον Ιδανικό Συνδυασμό από τα Προϊόντα μας
+            Βρες τον Ιδανικό Συνδυασμό & Κέρδισε Δωρεάν Αποστολή
           </h3>
           <p class="text-sakura-200 text-sm sm:text-base leading-relaxed">
-            Επίλεξε τον κύριο στόχο της επιδερμίδας σου και δες ποια ακριβώς προϊόντα από τη συλλογή του <strong>@seoulcrush.cy</strong> ταιριάζουν μεταξύ τους!
+            Όλα τα σετ 3 βημάτων ξεπερνούν τα €50,00 και ξεκλειδώνουν αυτόματα **Δωρεάν Αποστολή σε όλη την Κύπρο**!
           </p>
           <div class="flex flex-wrap gap-2 pt-2">
             <button onclick="selectRoutineGoal('glow')" id="goal-glow" class="routine-btn px-4 py-2.5 rounded-full text-xs sm:text-sm font-extrabold bg-hotpink-500 text-white shadow-md transition">
@@ -452,18 +393,14 @@
             </button>
           </div>
         </div>
-
         <div class="lg:col-span-7">
-          <div id="routineRecommendationBox" class="bg-sakura-100 text-burgundy-900 rounded-2xl p-5 sm:p-6 border-2 border-gold-400 shadow-lg">
-            <!-- Populated dynamically -->
-          </div>
+          <div id="routineRecommendationBox" class="bg-sakura-100 text-burgundy-900 rounded-2xl p-5 sm:p-6 border-2 border-gold-400 shadow-lg"></div>
         </div>
       </div>
     </div>
-  </section>
-
+</section>
   <!-- FOOTER -->
-  <footer class="bg-burgundy-900 text-sakura-100 border-t-2 border-gold-400/50 mt-12">
+<footer class="bg-burgundy-900 text-sakura-100 border-t-2 border-gold-400/50 mt-12">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 pb-8 border-b border-white/15">
         <div class="flex items-center gap-4">
@@ -479,26 +416,24 @@
             <p class="text-xs text-sakura-300 font-semibold">K-BEAUTY • K-POP • K-DRAMA • KOREAN FINDS</p>
           </div>
         </div>
-
         <div class="flex flex-wrap items-center gap-3">
-          <a href="https://instagram.com/seoulcrush.cy" target="_blank" rel="noopener"
-             class="brush-badge px-5 py-2.5 text-white font-extrabold text-sm border border-gold-400/60 hover:scale-105 transition">
-            @seoulcrush.cy ♡
+          <a href="https://www.tiktok.com/@seoulcrush.cy?_r=1&_t=ZN-9BHbuYl4ooY" target="_blank" rel="noopener"
+             class="px-4 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs border border-white/20 transition">
+            🎵 TikTok @seoulcrush.cy
           </a>
-          <a href="#explore" class="px-5 py-2.5 rounded-full bg-hotpink-500 hover:bg-hotpink-600 text-white font-bold text-sm transition">
-            Όλα τα Προϊόντα ↑
+          <a href="#explore" class="brush-badge px-5 py-2.5 text-white font-extrabold text-sm border border-gold-400/60 hover:scale-105 transition">
+            @seoulcrush.cy ♡
           </a>
         </div>
       </div>
       <div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-sakura-300 gap-2">
         <p>© 2026 Seoul Crush Cyprus (@seoulcrush.cy). All Rights Reserved.</p>
-        <p>Σχεδιασμένο στα αυθεντικά χρώματα & κάρτες προϊόντων του Seoul Crush CY 🌸</p>
+        <p>Πακέτα: Μικρό (€2,50) & Μεγάλο (€5,00) • Δωρεάν από €50+ • Πληρωμές με Κάρτα, Stripe & Revolut</p>
       </div>
     </div>
-  </footer>
-
-  <!-- PRODUCT QUICK VIEW MODAL -->
-  <div id="quickViewModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-burgundy-950/70 backdrop-blur-sm">
+</footer>
+  <!-- QUICK VIEW MODAL -->
+<div id="quickViewModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-burgundy-950/70 backdrop-blur-sm">
     <div class="relative w-full max-w-4xl rounded-3xl bg-sakura-100 border-2 border-gold-400 shadow-2xl overflow-hidden max-h-[92vh] overflow-y-auto">
       <button onclick="closeQuickView()" class="absolute top-4 right-4 z-20 w-10 h-10 rounded-full bg-burgundy-800 text-white hover:bg-hotpink-500 flex items-center justify-center font-bold shadow-md transition">
         ✕
@@ -506,21 +441,16 @@
       <div id="quickViewContent"></div>
     </div>
   </div>
-
-  <!-- SLIDE-OVER SHOPPING CART DRAWER -->
-  <div id="cartDrawerBackdrop" class="fixed inset-0 z-50 hidden bg-burgundy-950/60 backdrop-blur-sm" onclick="toggleCart(false)"></div>
+  <!-- CART DRAWER -->
+<div id="cartDrawerBackdrop" class="fixed inset-0 z-50 hidden bg-burgundy-950/60 backdrop-blur-sm" onclick="toggleCart(false)"></div>
   <aside id="cartDrawer" class="fixed top-0 right-0 z-50 h-full w-full max-w-md bg-sakura-50 border-l-2 border-sakura-300 shadow-2xl transform translate-x-full transition-transform duration-300 flex flex-col">
     <div class="p-5 bg-burgundy-800 text-white flex items-center justify-between border-b border-gold-400/40">
       <div>
         <span class="text-[10px] font-extrabold uppercase tracking-widest text-gold-300">SEOUL CRUSH • K-BEAUTY</span>
         <h3 class="text-lg font-extrabold">Το Καλάθι σας ♡</h3>
       </div>
-      <button onclick="toggleCart(false)" class="w-9 h-9 rounded-full bg-white/15 hover:bg-white/25 flex items-center justify-center font-bold">
-        ✕
-      </button>
+      <button onclick="toggleCart(false)" class="w-9 h-9 rounded-full bg-white/15 hover:bg-white/25 flex items-center justify-center font-bold">✕</button>
     </div>
-
-    <!-- Free shipping progress bar -->
     <div class="px-5 py-3 bg-sakura-200/70 border-b border-sakura-300">
       <p id="freeShippingText" class="text-xs font-bold text-burgundy-800 mb-1.5"></p>
       <div class="w-full h-2 rounded-full bg-white overflow-hidden">
@@ -528,31 +458,121 @@
       </div>
     </div>
 
-    <!-- Cart Items List -->
+    <!-- SHIPPING PACKAGE SELECTOR IN CART -->
+    <div class="p-4 bg-sakura-100 border-b border-sakura-300">
+      <label class="block text-[11px] font-extrabold uppercase text-burgundy-900 mb-2">
+        📦 Επιλογή Πακέτου Αποστολής:
+      </label>
+      <div class="grid grid-cols-2 gap-2">
+        <button type="button" onclick="setShippingPackage('small')" id="pkg-small-btn"
+                class="p-2.5 rounded-xl border-2 text-left transition flex flex-col justify-between">
+          <span class="text-xs font-extrabold text-burgundy-900">Μικρό Πακέτο</span>
+          <span class="text-[11px] font-semibold text-burgundy-700">1–2 προϊόντα • <strong>€2,50</strong></span>
+        </button>
+        <button type="button" onclick="setShippingPackage('large')" id="pkg-large-btn"
+                class="p-2.5 rounded-xl border-2 text-left transition flex flex-col justify-between">
+          <span class="text-xs font-extrabold text-burgundy-900">Μεγάλο Πακέτο</span>
+          <span class="text-[11px] font-semibold text-burgundy-700">3+ προϊόντα • <strong>€5,00</strong></span>
+        </button>
+      </div>
+    </div>
+
     <div id="cartItemsContainer" class="flex-1 overflow-y-auto p-5 space-y-3"></div>
 
-    <!-- Cart Footer -->
     <div class="p-5 bg-white border-t border-sakura-300 space-y-3">
-      <div class="flex items-center justify-between text-base font-extrabold text-burgundy-900">
-        <span>Σύνολο Παραγγελίας:</span>
-        <span id="cartTotalValue" class="text-xl text-hotpink-600">€0,00</span>
+      <div class="space-y-1 text-xs font-bold text-burgundy-800">
+        <div class="flex justify-between">
+          <span>Προϊόντα:</span>
+          <span id="cartSubtotalValue">€0,00</span>
+        </div>
+        <div class="flex justify-between">
+          <span id="cartShippingLabel">Αποστολή (Μικρό):</span>
+          <span id="cartShippingValue">€2,50</span>
+        </div>
+        <div class="flex items-center justify-between text-base font-extrabold text-burgundy-900 pt-1.5 border-t border-sakura-200">
+          <span>Τελικό Σύνολο:</span>
+          <span id="cartTotalValue" class="text-xl text-hotpink-600">€0,00</span>
+        </div>
       </div>
-      <button onclick="checkoutOrder()" class="w-full py-3.5 rounded-full bg-gradient-to-r from-burgundy-800 via-hotpink-600 to-burgundy-800 text-white font-extrabold text-sm shadow-lg hover:opacity-95 transition">
-        Ολοκλήρωση Παραγγελίας (@seoulcrush.cy) →
+
+      <button onclick="openCheckoutModal()" class="w-full py-3.5 rounded-full bg-gradient-to-r from-burgundy-800 via-hotpink-600 to-burgundy-800 text-white font-extrabold text-sm shadow-lg hover:opacity-95 transition">
+        Ολοκλήρωση & Πληρωμή (Κάρτα / Stripe / Revolut) →
       </button>
     </div>
-  </aside>
+</aside>
+  <!-- CHECKOUT MODAL -->
+<div id="checkoutModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-burgundy-950/70 backdrop-blur-sm">
+    <div class="relative w-full max-w-lg rounded-3xl bg-sakura-50 border-2 border-gold-400 shadow-2xl p-6 sm:p-7 max-h-[92vh] overflow-y-auto">
+      <div class="flex items-center justify-between pb-3 border-b border-sakura-300">
+        <h3 class="text-xl font-extrabold text-burgundy-900">Ολοκλήρωση Παραγγελίας ♡</h3>
+        <button onclick="closeCheckoutModal()" class="w-8 h-8 rounded-full bg-burgundy-800 text-white font-bold">✕</button>
+      </div>
+      <form onsubmit="submitOrder(event)" class="space-y-3.5 mt-3 text-xs sm:text-sm">
+        <div>
+          <label class="block font-extrabold text-burgundy-900 mb-1">Ονοματεπώνυμο *</label>
+          <input type="text" required placeholder="π.χ. Μαρία Γεωργίου" class="w-full px-3.5 py-2.5 rounded-xl bg-white border border-sakura-300" />
+        </div>
 
-  <!-- TOAST NOTIFICATION -->
-  <div id="toastNotification" class="fixed bottom-5 right-5 z-50 hidden items-center gap-3 px-5 py-3.5 rounded-2xl bg-burgundy-800 text-white border-2 border-gold-400 shadow-2xl">
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block font-extrabold text-burgundy-900 mb-1">Τηλέφωνο *</label>
+            <input type="tel" required placeholder="+357 99 123456" class="w-full px-3.5 py-2.5 rounded-xl bg-white border border-sakura-300" />
+          </div>
+          <div>
+            <label class="block font-extrabold text-burgundy-900 mb-1">Πόλη / Επαρχία *</label>
+            <select required class="w-full px-3.5 py-2.5 rounded-xl bg-white border border-sakura-300 font-semibold">
+              <option value="Λευκωσία">Λευκωσία</option>
+              <option value="Λεμεσός">Λεμεσός</option>
+              <option value="Λάρνακα">Λάρνακα</option>
+              <option value="Πάφος">Πάφος</option>
+              <option value="Αμμόχωστος">Αμμόχωστος</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label class="block font-extrabold text-burgundy-900 mb-1">Διεύθυνση & Τ.Κ. *</label>
+          <input type="text" required placeholder="Οδός, Αριθμός, Ταχ. Κώδικας" class="w-full px-3.5 py-2.5 rounded-xl bg-white border border-sakura-300" />
+        </div>
+
+        <div class="p-3 rounded-xl bg-white border border-sakura-300 space-y-2">
+          <label class="block font-extrabold text-burgundy-900 text-xs">💳 Τρόπος Πληρωμής:</label>
+          <div class="grid grid-cols-3 gap-2">
+            <button type="button" onclick="selectPaymentMethod('card')" id="pay-btn-card"
+                    class="p-2.5 rounded-xl border-2 border-hotpink-500 bg-sakura-100 text-center font-bold text-xs">
+              💳 Κάρτα
+            </button>
+            <button type="button" onclick="selectPaymentMethod('stripe')" id="pay-btn-stripe"
+                    class="p-2.5 rounded-xl border-2 border-sakura-300 bg-white text-center font-bold text-xs">
+              Stripe
+            </button>
+            <button type="button" onclick="selectPaymentMethod('revolut')" id="pay-btn-revolut"
+                    class="p-2.5 rounded-xl border-2 border-sakura-300 bg-white text-center font-bold text-xs">
+              Revolut
+            </button>
+          </div>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-burgundy-900 text-white flex items-center justify-between">
+          <div>
+            <span class="text-xs text-sakura-200" id="checkoutSummarySubtext">Σύνολο + Πακέτο</span>
+            <span class="block font-bold">Πληρωμή:</span>
+          </div>
+          <span id="checkoutModalFinalTotal" class="text-xl font-extrabold text-gold-300">€0,00</span>
+        </div>
+
+        <button type="submit" class="w-full py-3 rounded-full bg-hotpink-500 hover:bg-hotpink-600 text-white font-extrabold text-sm shadow-md transition">
+          Επιβεβαίωση Παραγγελίας ♡
+        </button>
+      </form>
+    </div>
+</div>
+  <!-- TOAST -->
+<div id="toastNotification" class="fixed bottom-5 right-5 z-50 hidden items-center gap-3 px-5 py-3.5 rounded-2xl bg-burgundy-800 text-white border-2 border-gold-400 shadow-2xl">
     <span class="text-lg">🌸</span>
     <span id="toastMessage" class="text-xs sm:text-sm font-bold"></span>
   </div>
-
-  <script>
-    // ============================================================================
-    // EXACT 10 PRODUCTS FROM UPLOADED SEOUL CRUSH CY PROMO IMAGES
-    // ============================================================================
+<script>
     const PRODUCTS = [
       {
         id: 1,
@@ -566,14 +586,13 @@
         category: "Glow & Brightening Serums",
         badgeText: "Με 70% Ροδάκινο + Niacinamide",
         badgeIcon: "🍑",
-        imageFile: "ChatGPT Image 9 Nov 2026, 18_02_32-1.png",
+        imageFile: "ChatGPT Image 9 Nov 2026, 18_02_32-1_4.png",
         benefits: [
           { icon: "💧", text: "Λάμψη & ενυδάτωση" },
           { icon: "✨", text: "Βοηθά σε θαμπή όψη" },
           { icon: "〰️", text: "Πιο λεία και φωτεινή επιδερμίδα" }
         ],
-        bottleColors: { body: "#F7A8B8", cap: "#FFFFFF", labelText: "Anua\nPEACH 70\nNIACIN SERUM\n70%", shape: "dropper" },
-        howToUse: "Εφαρμόστε 2-3 σταγόνες σε καθαρό πρόσωπο πρωί και βράδυ πριν την ενυδατική σας κρέμα."
+        howToUse: "Εφαρμόστε 2-3 σταγόνες σε καθαρό πρόσωπο πρωί και βράδυ."
       },
       {
         id: 2,
@@ -587,14 +606,13 @@
         category: "Sun Care",
         badgeText: "Με Ρύζι + Probiotics",
         badgeIcon: "🌾",
-        imageFile: "ChatGPT Image 9 Nov 2026, 18_02_35-2.png",
+        imageFile: "ChatGPT Image 9 Nov 2026, 18_02_35-2_4.png",
         benefits: [
           { icon: "☀️", text: "Αντηλιακή προστασία για κάθε μέρα" },
           { icon: "🪶", text: "Ελαφριά, άνετη υφή" },
           { icon: "💧", text: "Ενυδάτωση χωρίς λευκά σημάδια" }
         ],
-        bottleColors: { body: "#F5EDE2", cap: "#F7F3EE", labelText: "조선미녀\nRelief Sun:\nRice + Probiotics\nSPF50+ PA++++", shape: "tube" },
-        howToUse: "Εφαρμόστε γενναιόδωρη ποσότητα ως το τελευταίο βήμα της πρωινής σας ρουτίνας."
+        howToUse: "Εφαρμόστε γενναιόδωρη ποσότητα ως τελευταίο βήμα."
       },
       {
         id: 3,
@@ -608,14 +626,13 @@
         category: "Eye Care",
         badgeText: "Collagen Eye Care",
         badgeIcon: "🫧",
-        imageFile: "ChatGPT Image 9 Nov 2026, 18_02_38-3.png",
+        imageFile: "ChatGPT Image 9 Nov 2026, 18_02_38-3_4.png",
         benefits: [
           { icon: "👁️", text: "Φροντίδα για την περιοχή των ματιών" },
           { icon: "🪶", text: "Πιο ξεκούραστη όψη" },
           { icon: "💧", text: "Λεία και ενυδατωμένη αίσθηση" }
         ],
-        bottleColors: { body: "#E6EBF0", cap: "#D0D7DE", labelText: "Collagen\nLifting\nEye Cream\n15 ml", shape: "eyepen" },
-        howToUse: "Κάντε απαλό μασάζ γύρω από την περιοχή των ματιών με την ειδική μεταλλική κεφαλή πρωί και βράδυ."
+        howToUse: "Κάντε απαλό μασάζ γύρω από τα μάτια πρωί και βράδυ."
       },
       {
         id: 4,
@@ -629,14 +646,13 @@
         category: "Glow & Brightening Serums",
         badgeText: "Glow care serum",
         badgeIcon: "🍯",
-        imageFile: "ChatGPT Image 9 Nov 2026, 18_02_41-4.png",
+        imageFile: "ChatGPT Image 9 Nov 2026, 18_02_41-4_4.png",
         benefits: [
           { icon: "💧", text: "Λάμψη & θρέψη" },
           { icon: "✨", text: "Πιο ζωντανή όψη" },
           { icon: "〰️", text: "Άνεση και ενυδάτωση" }
         ],
-        bottleColors: { body: "#F3C64F", cap: "#F4F1EA", labelText: "조선미녀\nGlow Serum\nPropolis + Niacinamide", shape: "dropper" },
-        howToUse: "Απλώστε 2-3 σταγόνες στο πρόσωπο και ταμπονάρετε απαλά για άμεσο Honey Glow αποτέλεσμα."
+        howToUse: "Απλώστε 2-3 σταγόνες στο πρόσωπο και ταμπονάρετε απαλά."
       },
       {
         id: 5,
@@ -650,14 +666,13 @@
         category: "Glow & Brightening Serums",
         badgeText: "Niacinamide glow care",
         badgeIcon: "✨",
-        imageFile: "ChatGPT Image 9 Nov 2026, 18_02_43-5.png",
+        imageFile: "ChatGPT Image 9 Nov 2026, 18_02_43-5_4.png",
         benefits: [
           { icon: "🫧", text: "Βοηθά σε σημάδια και θαμπάδα" },
           { icon: "✨", text: "Glow effect στην επιδερμίδα" },
           { icon: "🍃", text: "Απαλή και ελαφριά φροντίδα" }
         ],
-        bottleColors: { body: "#FFFFFF", cap: "#0A7E4C", labelText: "AXIS-Y\nDark Spot Correcting\nGlow Serum\n5% Niacinamide", shape: "pumptube" },
-        howToUse: "Εφαρμόστε σε όλο το πρόσωπο ή τοπικά σε δυσχρωμίες και σημάδια πρωί και βράδυ."
+        howToUse: "Εφαρμόστε σε όλο το πρόσωπο ή τοπικά σε δυσχρωμίες."
       },
       {
         id: 6,
@@ -671,14 +686,13 @@
         category: "Centella & Barrier Care",
         badgeText: "Με Probio-Cica",
         badgeIcon: "🌿",
-        imageFile: "ChatGPT Image 9 Nov 2026, 18_02_45-6.png",
+        imageFile: "ChatGPT Image 9 Nov 2026, 18_02_45-6_4.png",
         benefits: [
           { icon: "💧", text: "Πλούσια ενυδάτωση" },
-          { icon: "🌱", text: "Άνεση για ξηρή και ευαίσθητη επιδερμίδα" },
+          { icon: "🌱", text: "Άνεση για ξηρή & ευαίσθητη επιδερμίδα" },
           { icon: "🛡️", text: "Υποστήριξη skin barrier" }
         ],
-        bottleColors: { body: "#592D1D", cap: "#F4EFE6", labelText: "SKIN1004\nMADAGASCAR\nCENTELLA\nPROBIO-CICA\nENRICH CREAM", shape: "jar" },
-        howToUse: "Απλώστε ως το τελευταίο βήμα της βραδινής ή πρωινής σας ρουτίνας για βαθιά ενδυνάμωση του φραγμού."
+        howToUse: "Απλώστε ως τελευταίο βήμα της ρουτίνας σας."
       },
       {
         id: 7,
@@ -692,14 +706,13 @@
         category: "Essence",
         badgeText: "Με ζυμωμένη Σόγια",
         badgeIcon: "🫘",
-        imageFile: "ChatGPT Image 9 Nov 2026, 18_03_22.png",
+        imageFile: "ChatGPT Image 9 Nov 2026, 18_03_22_4.png",
         benefits: [
           { icon: "💧", text: "Ενυδάτωση σε βάθος" },
           { icon: "✨", text: "Ήπια απολέπιση για πιο λεία υφή" },
           { icon: "〰️", text: "Πιο απαλή & φωτεινή επιδερμίδα" }
         ],
-        bottleColors: { body: "#F7DF94", cap: "#FFFFFF", labelText: "mixsoon\nBean Essence\n50 ml / 1.69 fl. oz.", shape: "pumpbottle" },
-        howToUse: "Τρίψτε απαλά με κυκλικές κινήσεις για ήπια απολέπιση ή ταμπονάρετε απευθείας για βαθιά ενυδάτωση."
+        howToUse: "Κάντε απαλό μασάζ για ήπια απολέπιση."
       },
       {
         id: 8,
@@ -713,14 +726,13 @@
         category: "Glow & Brightening Serums",
         badgeText: "Με Ρύζι + Alpha-Arbutin",
         badgeIcon: "🌾",
-        imageFile: "ChatGPT Image 9 Nov 2026, 18_03_51-2.png",
+        imageFile: "ChatGPT Image 9 Nov 2026, 18_03_51-2_3.png",
         benefits: [
           { icon: "✨", text: "Λάμψη & ομοιόμορφη όψη" },
           { icon: "☀️", text: "Βοηθά με τη θαμπάδα" },
           { icon: "💧", text: "Ενυδάτωση & απαλότητα" }
         ],
-        bottleColors: { body: "#F6EBD8", cap: "#FFFFFF", labelText: "조선미녀\nGlow Deep Serum\nRice + Alpha-Arbutin", shape: "dropper" },
-        howToUse: "Εφαρμόστε 2-3 σταγόνες σε καθαρό δέρμα πριν την κρέμα σας για φωτεινό και ομοιόμορφο τόνο."
+        howToUse: "Εφαρμόστε 2-3 σταγόνες σε καθαρό δέρμα."
       },
       {
         id: 9,
@@ -734,14 +746,13 @@
         category: "Glow & Brightening Serums",
         badgeText: "Με Centella + Vita C",
         badgeIcon: "🍋",
-        imageFile: "ChatGPT Image 9 Nov 2026, 18_03_54-3.png",
+        imageFile: "ChatGPT Image 9 Nov 2026, 18_03_54-3_2.png",
         benefits: [
           { icon: "✨", text: "Φωτεινή όψη" },
           { icon: "🌅", text: "Βοηθά σε ανομοιόμορφο τόνο" },
           { icon: "🍃", text: "Καταπράυνση & φροντίδα" }
         ],
-        bottleColors: { body: "#F8F3EB", cap: "#EFECE6", labelText: "조선미녀\nLight On Serum\nCentella + Vita C\n30 ml", shape: "slimtube" },
-        howToUse: "Απλώστε 1-2 πατήματα σε καθαρό πρόσωπο πρωί (μαζί με αντηλιακό) ή βράδυ."
+        howToUse: "Απλώστε 1-2 πατήματα σε καθαρό πρόσωπο."
       },
       {
         id: 10,
@@ -755,200 +766,131 @@
         category: "Centella & Barrier Care",
         badgeText: "Με Madagascar Centella",
         badgeIcon: "🍀",
-        imageFile: "ChatGPT Image 9 Nov 2026, 18_03_56-4.png",
+        imageFile: "ChatGPT Image 9 Nov 2026, 18_03_56-4_2.png",
         benefits: [
           { icon: "🌿", text: "Άμεση καταπράυνση" },
           { icon: "💧", text: "Ελαφριά ενυδάτωση" },
           { icon: "🛡️", text: "Για ευαίσθητη επιδερμίδα" }
         ],
-        bottleColors: { body: "#F2D379", cap: "#FFFFFF", labelText: "SKIN1004\nMADAGASCAR\nCENTELLA\nAMPOULE\n55 ml", shape: "dropper" },
-        howToUse: "Εφαρμόστε μερικές σταγόνες μετά το toner για άμεση καταπράυνση ερεθισμών και ενυδάτωση."
+        howToUse: "Εφαρμόστε μερικές σταγόνες μετά το toner."
       }
     ];
 
-    // State
     let activeBrand = "ALL";
     let activeCategory = "ALL";
     let wishlistOnly = false;
-    let cardMode = "promo"; // "promo" (exact Seoul Crush horizontal card layout) or "compact"
+    let cardMode = "promo";
     let wishlist = new Set([1, 2, 10]);
-    let cart = [
-      { id: 1, qty: 1 },
-      { id: 2, qty: 1 }
-    ];
+    let cart = [{ id: 1, qty: 1 }, { id: 2, qty: 1 }];
+    let selectedShippingPackage = "small";
+    let selectedPaymentMethod = "card";
     let heroIndex = 0;
 
-    // SVG Bottle Illustration Generator (Fallback + Studio art matching each exact product)
-    function renderBottleSVG(product) {
-      const c = product.bottleColors;
-      if (c.shape === "jar") {
-        return `
-          <svg viewBox="0 0 180 210" class="w-36 h-44 mx-auto drop-shadow-xl">
-            <ellipse cx="90" cy="192" rx="64" ry="10" fill="#D9A7B8" opacity="0.45"/>
-            <rect x="34" y="42" width="112" height="34" rx="8" fill="${c.cap}" stroke="#DFD5C8" stroke-width="1.5"/>
-            <rect x="28" y="74" width="124" height="106" rx="14" fill="${c.body}"/>
-            <rect x="48" y="92" width="84" height="70" rx="4" fill="#FBF8F3"/>
-            <text x="90" y="112" text-anchor="middle" font-size="8" font-weight="800" fill="#2D1910" letter-spacing="1.5">SKIN1004</text>
-            <text x="90" y="126" text-anchor="middle" font-size="9" font-weight="800" fill="#2D1910">CENTELLA</text>
-            <text x="90" y="140" text-anchor="middle" font-size="6.5" font-weight="700" fill="#592D1D">PROBIO-CICA</text>
-            <text x="90" y="150" text-anchor="middle" font-size="6" font-weight="600" fill="#592D1D">ENRICH CREAM</text>
-          </svg>
-        `;
-      }
-      if (c.shape === "tube" || c.shape === "slimtube" || c.shape === "pumptube") {
-        const accentTop = c.shape === "pumptube" ? `<rect x="52" y="18" width="76" height="11" fill="#0A7E4C"/>` : "";
-        return `
-          <svg viewBox="0 0 180 220" class="w-36 h-44 mx-auto drop-shadow-xl">
-            <ellipse cx="90" cy="204" rx="48" ry="8" fill="#D9A7B8" opacity="0.45"/>
-            <polygon points="52,22 128,22 114,155 66,155" fill="${c.body}" stroke="#E6D7C8" stroke-width="1.2"/>
-            ${accentTop}
-            <rect x="68" y="155" width="44" height="38" rx="4" fill="${c.cap}" stroke="#D9CEBF" stroke-width="1"/>
-            <text x="90" y="68" text-anchor="middle" font-size="11" font-weight="800" fill="#3B1D2E">${product.brand.slice(0, 10)}</text>
-            <text x="90" y="92" text-anchor="middle" font-size="8.5" font-weight="700" fill="#5A0821">${product.name.slice(0, 16)}</text>
-            <text x="90" y="110" text-anchor="middle" font-size="7" font-weight="600" fill="#7A495A">${product.size}</text>
-          </svg>
-        `;
-      }
-      if (c.shape === "eyepen") {
-        return `
-          <svg viewBox="0 0 180 220" class="w-36 h-44 mx-auto drop-shadow-xl">
-            <ellipse cx="90" cy="204" rx="42" ry="8" fill="#D9A7B8" opacity="0.45"/>
-            <circle cx="90" cy="24" r="9" fill="#BCC6D0"/>
-            <polygon points="81,28 99,28 105,62 75,62" fill="#F2F5F8"/>
-            <rect x="72" y="62" width="36" height="132" rx="4" fill="${c.body}" stroke="#C5CFD9" stroke-width="1.5"/>
-            <text x="90" y="102" text-anchor="middle" font-size="7.5" font-weight="800" fill="#2A3441">Collagen</text>
-            <text x="90" y="114" text-anchor="middle" font-size="7.5" font-weight="700" fill="#2A3441">Lifting</text>
-            <text x="90" y="126" text-anchor="middle" font-size="7" font-weight="600" fill="#2A3441">Eye Cream</text>
-          </svg>
-        `;
-      }
-      // Default: Dropper / Pump Bottle (Anua, BOJ Glow, BOJ Deep, SKIN1004 Ampoule, Mixsoon)
-      return `
-        <svg viewBox="0 0 180 220" class="w-36 h-44 mx-auto drop-shadow-xl">
-          <ellipse cx="90" cy="202" rx="54" ry="9" fill="#D9A7B8" opacity="0.45"/>
-          <rect x="79" y="16" width="22" height="32" rx="11" fill="#FFFFFF" stroke="#E5D6DC" stroke-width="1"/>
-          <rect x="68" y="45" width="44" height="24" rx="4" fill="#F9F6F7" stroke="#E2D2D8" stroke-width="1"/>
-          <rect x="48" y="70" width="84" height="122" rx="16" fill="${c.body}" stroke="#FFFFFF" stroke-width="2"/>
-          <rect x="56" y="96" width="68" height="74" rx="6" fill="#FFFFFF" fill-opacity="0.88"/>
-          <text x="90" y="116" text-anchor="middle" font-size="8.5" font-weight="800" fill="#420417">${product.brand.slice(0, 12)}</text>
-          <text x="90" y="133" text-anchor="middle" font-size="8" font-weight="700" fill="#5A0821">${product.name.slice(0, 15)}</text>
-          <text x="90" y="152" text-anchor="middle" font-size="7.5" font-weight="700" fill="#FF146A">${product.size}</text>
-        </svg>
-      `;
-    }
+    const FREE_SHIPPING_THRESHOLD = 50.00;
+    const SHIPPING_RATES = {
+      small: { label: "Μικρό Πακέτο", price: 2.50 },
+      large: { label: "Μεγάλο Πακέτο", price: 5.00 }
+    };
 
-    // Build each Product Card in the EXACT visual style of the uploaded Seoul Crush CY images
     function buildPromoCardHTML(p) {
       const isWished = wishlist.has(p.id);
+      if (cardMode === "compact") {
+        return `
+          <article class="group rounded-2xl bg-white p-4 border border-sakura-300 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="rounded-xl overflow-hidden mb-3 bg-sakura-100 aspect-[16/9]">
+                <img src="${p.imageFile}" alt="${p.name}" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/600x340/FDF0F5/5A0821?text=${encodeURIComponent(p.name)}'" />
+              </div>
+              <span class="text-[10px] font-extrabold text-hotpink-600 uppercase">${p.brand}</span>
+              <h3 class="text-sm font-extrabold text-burgundy-900">${p.name}</h3>
+              <p class="text-xs text-burgundy-700 mt-0.5">${p.subtitle}</p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-sakura-200 flex items-center justify-between">
+              <span class="font-extrabold text-base text-burgundy-900">${p.priceFormatted}</span>
+              <button onclick="addToCart(${p.id})" class="px-3 py-1.5 rounded-full bg-hotpink-500 text-white font-bold text-xs">+ Καλάθι</button>
+            </div>
+          </article>
+        `;
+      }
+
       return `
         <article class="group relative rounded-[28px] bg-gradient-to-br from-[#FFEBF3] via-[#FDF0F5] to-[#FAD8E6] border-2 border-white shadow-card hover:shadow-card-hover transition-all duration-300 overflow-hidden p-5 sm:p-6 flex flex-col justify-between">
-          
-          <!-- Subtle decorative sakura petals in top right -->
-          <div class="pointer-events-none absolute -top-6 -right-6 w-36 h-36 rounded-full bg-hotpink-400/10 blur-xl"></div>
-
-          <!-- TOP ROW: "SEOUL CRUSH • K-BEAUTY" Pill + Wishlist + Mini Circular Logo -->
-          <div class="flex items-start justify-between gap-2 relative z-10">
+          <div class="flex items-start justify-between gap-2 relative z-10 mb-3">
             <div>
               <div class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-burgundy-800 text-white text-[10px] sm:text-xs font-extrabold tracking-widest uppercase shadow-sm">
                 <span>SEOUL CRUSH</span>
                 <span>•</span>
                 <span>K-BEAUTY</span>
               </div>
-              <div class="mt-2.5">
-                <p class="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-hotpink-600">${p.brand}</p>
-                <h3 class="text-xl sm:text-2xl font-extrabold text-burgundy-900 leading-tight mt-0.5 cursor-pointer hover:text-hotpink-600 transition" onclick="openQuickView(${p.id})">
+              <div class="mt-2">
+                <p class="text-xs font-extrabold uppercase tracking-wider text-hotpink-600">${p.brand}</p>
+                <h3 class="text-xl sm:text-2xl font-extrabold text-burgundy-900 leading-tight mt-0.5 cursor-pointer hover:text-hotpink-600" onclick="openQuickView(${p.id})">
                   ${p.name}
                 </h3>
-                <p class="text-xs sm:text-sm font-semibold text-burgundy-700/80 mt-0.5">${p.subtitle}</p>
+                <p class="text-xs font-semibold text-burgundy-700/80">${p.subtitle}</p>
               </div>
             </div>
 
-            <!-- Right Mini Emblem + Wishlist -->
-            <div class="flex items-center gap-2 flex-shrink-0">
-              <button onclick="toggleWishlist(${p.id})"
-                      class="w-9 h-9 rounded-full bg-white/90 border border-sakura-300 flex items-center justify-center text-hotpink-500 hover:scale-110 transition shadow-sm"
-                      title="Προσθήκη στα Αγαπημένα">
+            <div class="flex items-center gap-2 shrink-0">
+              <button onclick="toggleWishlist(${p.id})" class="w-9 h-9 rounded-full bg-white/90 border border-sakura-300 flex items-center justify-center text-hotpink-500 hover:scale-110 transition shadow-sm">
                 ${isWished ? '💖' : '🤍'}
               </button>
               <div class="w-12 h-12 rounded-full border-2 border-burgundy-800 bg-gradient-to-b from-white to-sakura-200 flex flex-col items-center justify-center shadow-sm text-center leading-none p-1">
                 <span class="font-serif font-bold text-[9px] text-burgundy-900">SEOUL</span>
                 <span class="font-script font-bold text-[11px] text-hotpink-500 -mt-0.5">CRUSH♡</span>
-                <span class="text-[6px] font-bold bg-burgundy-800 text-white px-1 rounded-full mt-0.5">@seoulcrush.cy</span>
               </div>
             </div>
           </div>
 
-          <!-- FULL UPLOADED PROMO IMAGE PREVIEW (if local image resolves, shows exact card image!) -->
-          <div class="my-3 relative rounded-2xl overflow-hidden border border-white/80 bg-white/50 cursor-pointer" onclick="openQuickView(${p.id})">
-            <img src="${p.imageFile}" alt="${p.brand} - ${p.name}"
-                 class="w-full h-auto object-cover rounded-2xl group-hover:scale-[1.02] transition-transform duration-500"
-                 onerror="this.parentElement.classList.add('hidden')" />
+          <!-- FULL ORIGINAL PRODUCT PHOTO CARD -->
+          <div class="my-2 rounded-2xl overflow-hidden border-2 border-white shadow-md bg-white cursor-pointer aspect-[16/9]" onclick="openQuickView(${p.id})">
+            <img src="${p.imageFile}" alt="${p.brand} - ${p.name}" class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500" onerror="this.src='https://placehold.co/1200x675/FDF0F5/5A0821?text=${encodeURIComponent(p.name)}'" />
           </div>
 
-          <!-- INTERACTIVE CARD BODY (Exact Tagline Ribbon + 3 Benefits + Ingredient Circle + Bottle + Price Badge) -->
           <div class="grid grid-cols-12 gap-3 items-center my-2 relative z-10">
-            
-            <!-- Left 7 Cols: Script Pink Tagline + 3 Benefit Pills -->
-            <div class="col-span-12 sm:col-span-7 space-y-2.5">
-              <div class="inline-block pink-script-ribbon px-5 py-1 text-white font-script font-bold text-2xl sm:text-[26px] leading-snug">
+            <div class="col-span-12 sm:col-span-7 space-y-2">
+              <div class="inline-block pink-script-ribbon px-4 py-1 text-white font-script font-bold text-xl sm:text-2xl leading-snug">
                 ${p.tagline}
               </div>
 
-              <div class="space-y-2 pt-1">
+              <div class="space-y-1.5 pt-1">
                 ${p.benefits.map(b => `
-                  <div class="flex items-center gap-2.5 bg-white/85 backdrop-blur-sm rounded-full p-1.5 pr-4 border border-sakura-200 shadow-sm">
-                    <span class="w-8 h-8 rounded-full bg-sakura-200 flex items-center justify-center text-sm flex-shrink-0">
-                      ${b.icon}
-                    </span>
-                    <span class="text-xs sm:text-[13px] font-bold text-burgundy-900 leading-tight">
-                      ${b.text}
-                    </span>
+                  <div class="flex items-center gap-2 bg-white/85 backdrop-blur-sm rounded-full p-1.5 pr-3 border border-sakura-200 shadow-sm">
+                    <span class="w-7 h-7 rounded-full bg-sakura-200 flex items-center justify-center text-xs shrink-0">${b.icon}</span>
+                    <span class="text-xs font-bold text-burgundy-900 truncate">${b.text}</span>
                   </div>
                 `).join('')}
               </div>
             </div>
 
-            <!-- Right 5 Cols: Bottle Illustration + Circular Ingredient Badge + Burgundy Price Badge -->
-            <div class="col-span-12 sm:col-span-5 flex flex-col items-center justify-center relative">
-              <div class="cursor-pointer transform group-hover:-translate-y-1 transition duration-300" onclick="openQuickView(${p.id})">
-                ${renderBottleSVG(p)}
+            <div class="col-span-12 sm:col-span-5 flex flex-col items-center justify-center">
+              <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl overflow-hidden border-2 border-white shadow-md bg-white">
+                <img src="${p.imageFile}" alt="${p.name}" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/400x400/FDF0F5/5A0821?text=Product'" />
               </div>
-
-              <!-- Circular Ingredient Highlight Badge -->
-              <div class="mt-1 px-3.5 py-1.5 rounded-full bg-white/95 border-2 border-sakura-300 text-center shadow-sm">
-                <p class="text-[11px] font-extrabold text-burgundy-800 leading-tight">
-                  ${p.badgeIcon} ${p.badgeText}
-                </p>
+              <div class="mt-2 px-3 py-1 rounded-full bg-white/95 border border-sakura-300 text-center shadow-sm">
+                <p class="text-[10px] font-extrabold text-burgundy-800">${p.badgeIcon} ${p.badgeText}</p>
               </div>
             </div>
           </div>
 
-          <!-- BOTTOM BAR: @seoulcrush.cy Brush Badge + Burgundy Gold-Trimmed Price + Add To Cart -->
-          <div class="pt-3 mt-2 border-t border-sakura-300/70 flex flex-wrap items-center justify-between gap-3 relative z-10">
-            <div class="brush-badge px-3.5 py-1.5 text-white text-xs font-extrabold tracking-wide flex items-center gap-1 shadow-sm">
-              <span>@seoulcrush.cy</span>
-              <span>♡</span>
+          <div class="pt-3 mt-2 border-t border-sakura-300/70 flex items-center justify-between gap-3 relative z-10">
+            <div class="brush-badge px-3 py-1 text-white text-xs font-extrabold tracking-wide">
+              @seoulcrush.cy ♡
             </div>
 
-            <div class="flex items-center gap-2.5">
-              <!-- Burgundy & Gold Price Badge -->
-              <div class="burgundy-price-badge px-4 py-1.5 rounded-full text-white font-extrabold text-lg sm:text-xl tracking-tight">
+            <div class="flex items-center gap-2">
+              <div class="burgundy-price-badge px-4 py-1.5 rounded-full text-white font-extrabold text-lg sm:text-xl">
                 ${p.priceFormatted}
               </div>
-
-              <!-- Add to Cart Button -->
-              <button onclick="addToCart(${p.id})"
-                      class="px-4 py-2.5 rounded-full bg-hotpink-500 hover:bg-hotpink-600 text-white font-extrabold text-xs sm:text-sm shadow-md hover:scale-105 transition flex items-center gap-1.5">
-                <span>+ Καλάθι</span>
+              <button onclick="addToCart(${p.id})" class="px-4 py-2.5 rounded-full bg-hotpink-500 hover:bg-hotpink-600 text-white font-extrabold text-xs sm:text-sm shadow-md hover:scale-105 transition">
+                + Καλάθι
               </button>
             </div>
           </div>
-
         </article>
       `;
     }
 
-    // Render Main Products Catalog
     function renderCatalog() {
       const grid = document.getElementById("productsGrid");
       const query = (document.getElementById("searchInput")?.value || "").trim().toLowerCase();
@@ -959,7 +901,7 @@
         if (activeCategory !== "ALL" && p.category !== activeCategory) return false;
         if (wishlistOnly && !wishlist.has(p.id)) return false;
         if (query) {
-          const haystack = `${p.brand} ${p.name} ${p.subtitle} ${p.tagline} ${p.badgeText} ${p.benefits.map(b => b.text).join(" ")}`.toLowerCase();
+          const haystack = `${p.brand} ${p.name} ${p.subtitle} ${p.tagline} ${p.badgeText}`.toLowerCase();
           if (!haystack.includes(query)) return false;
         }
         return true;
@@ -969,27 +911,52 @@
       if (sortBy === "price-desc") filtered.sort((a, b) => b.price - a.price);
       if (sortBy === "brand") filtered.sort((a, b) => a.brand.localeCompare(b.brand));
 
-      document.getElementById("resultCounter").textContent =
-        `Εμφανίζονται ${filtered.length} από ${PRODUCTS.length} προϊόντα`;
+      document.getElementById("resultCounter").textContent = `Εμφανίζονται ${filtered.length} από ${PRODUCTS.length} προϊόντα`;
 
       if (filtered.length === 0) {
         grid.innerHTML = `
           <div class="col-span-full rounded-3xl bg-white/80 p-12 text-center border border-sakura-300">
             <p class="text-4xl mb-3">🌸</p>
-            <h3 class="text-xl font-extrabold text-burgundy-900">Δεν βρέθηκαν προϊόντα με αυτά τα φίλτρα</h3>
-            <p class="text-sm text-burgundy-700 mt-1 mb-4">Δοκιμάστε να καθαρίσετε την αναζήτηση ή επιλέξτε "Όλα τα Προϊόντα".</p>
-            <button onclick="resetAllFilters()" class="px-5 py-2.5 rounded-full bg-burgundy-800 text-white text-xs font-extrabold">
-              Επαναφορά Φίλτρων
-            </button>
+            <h3 class="text-xl font-extrabold text-burgundy-900">Δεν βρέθηκαν προϊόντα</h3>
+            <button onclick="resetAllFilters()" class="mt-4 px-5 py-2.5 rounded-full bg-burgundy-800 text-white text-xs font-extrabold">Επαναφορά</button>
           </div>
         `;
         return;
       }
-
       grid.innerHTML = filtered.map(p => buildPromoCardHTML(p)).join("");
     }
 
-    // Filter Controls
+    function renderHeroSpotlight() {
+      const p = PRODUCTS[heroIndex];
+      const box = document.getElementById("heroSpotlightCard");
+      box.innerHTML = `
+        <div class="grid grid-cols-12 gap-3 items-center">
+          <div class="col-span-7 space-y-2">
+            <p class="text-xs font-extrabold uppercase text-hotpink-600">${p.brand}</p>
+            <h3 class="text-xl sm:text-2xl font-extrabold text-burgundy-900 leading-tight">${p.name}</h3>
+            <p class="text-xs font-semibold text-burgundy-700">${p.subtitle}</p>
+            <div class="inline-block pink-script-ribbon px-3.5 py-0.5 text-white font-script font-bold text-lg">
+              ${p.tagline}
+            </div>
+            <div class="pt-2 flex items-center gap-2">
+              <span class="burgundy-price-badge px-3.5 py-1 rounded-full text-white font-extrabold text-base">${p.priceFormatted}</span>
+              <button onclick="event.stopPropagation(); addToCart(${p.id})" class="px-3.5 py-1.5 rounded-full bg-hotpink-500 text-white text-xs font-extrabold">+ Καλάθι</button>
+            </div>
+          </div>
+          <div class="col-span-5 text-center">
+            <div class="w-full aspect-[16/9] rounded-xl overflow-hidden shadow-sm bg-white">
+              <img src="${p.imageFile}" alt="${p.name}" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/600x340/FDF0F5/5A0821?text=Product'" />
+            </div>
+          </div>
+        </div>
+      `;
+
+      const dots = document.getElementById("heroDots");
+      dots.innerHTML = PRODUCTS.map((item, idx) => `
+        <button onclick="heroIndex=${idx}; renderHeroSpotlight();" class="h-2 rounded-full transition-all ${idx === heroIndex ? 'w-6 bg-hotpink-500' : 'w-2 bg-sakura-300'}"></button>
+      `).join('');
+    }
+
     function setBrandFilter(brand) {
       activeBrand = brand;
       wishlistOnly = false;
@@ -1016,7 +983,7 @@
 
     function filterByWishlist() {
       wishlistOnly = !wishlistOnly;
-      showToast(wishlistOnly ? "Εμφάνιση μόνο Αγαπημένων 💖" : "Εμφάνιση όλων των προϊόντων 🌸");
+      showToast(wishlistOnly ? "Εμφάνιση μόνο Αγαπημένων 💖" : "Εμφάνιση όλων 🌸");
       renderCatalog();
     }
 
@@ -1041,132 +1008,56 @@
         grid.classList.add("md:grid-cols-2");
         label.textContent = "Full Promo Cards";
       }
+      renderCatalog();
     }
 
-    // Hero Spotlight Rotator
-    function renderHeroSpotlight() {
-      const p = PRODUCTS[heroIndex];
-      const box = document.getElementById("heroSpotlightCard");
-      box.innerHTML = `
-        <div class="grid grid-cols-12 gap-3 items-center">
-          <div class="col-span-7 space-y-2">
-            <p class="text-xs font-extrabold uppercase tracking-wider text-hotpink-600">${p.brand}</p>
-            <h3 class="text-2xl font-extrabold text-burgundy-900 leading-tight">${p.name}</h3>
-            <p class="text-xs font-semibold text-burgundy-700">${p.subtitle}</p>
-            <div class="inline-block pink-script-ribbon px-4 py-0.5 text-white font-script font-bold text-xl">
-              ${p.tagline}
-            </div>
-            <ul class="space-y-1 pt-1">
-              ${p.benefits.map(b => `
-                <li class="text-xs font-bold text-burgundy-800 flex items-center gap-1.5">
-                  <span>${b.icon}</span><span>${b.text}</span>
-                </li>
-              `).join('')}
-            </ul>
-            <div class="pt-2 flex items-center gap-2">
-              <span class="burgundy-price-badge px-3.5 py-1 rounded-full text-white font-extrabold text-base">
-                ${p.priceFormatted}
-              </span>
-              <button onclick="event.stopPropagation(); addToCart(${p.id})"
-                      class="px-3.5 py-1.5 rounded-full bg-hotpink-500 text-white text-xs font-extrabold hover:bg-hotpink-600 transition">
-                + Καλάθι
-              </button>
-            </div>
-          </div>
-          <div class="col-span-5 text-center">
-            ${renderBottleSVG(p)}
-            <span class="inline-block mt-1 px-2.5 py-0.5 rounded-full bg-white border border-sakura-300 text-[10px] font-extrabold text-burgundy-800">
-              ${p.badgeIcon} ${p.badgeText}
-            </span>
-          </div>
-        </div>
-      `;
-
-      const dots = document.getElementById("heroDots");
-      dots.innerHTML = PRODUCTS.map((item, idx) => `
-        <button onclick="heroIndex=${idx}; renderHeroSpotlight();"
-                class="h-2 rounded-full transition-all ${idx === heroIndex ? 'w-6 bg-hotpink-500' : 'w-2 bg-sakura-300 hover:bg-burgundy-600'}"
-                title="${item.name}"></button>
-      `).join('');
-    }
-
-    // Routine Finder Logic (Using ONLY the 10 user products)
     const ROUTINE_PRESETS = {
-      glow: {
-        title: "🍑 Ρουτίνα Glass Skin & Λάμψη",
-        desc: "Ιδανικός συνδυασμός με ζυμωμένη Σόγια, 70% Ροδάκινο + Niacinamide και Αντηλιακό Ρυζιού για αψεγάδιαστο Glass Skin.",
-        ids: [7, 1, 2] // Mixsoon Bean Essence + Anua Peach 70 + BOJ Relief Sun
-      },
-      spots: {
-        title: "✨ Ρουτίνα για Σημάδια, Πανάδες & Ομοιόμορφο Τόνο",
-        desc: "Συνδυασμός Alpha-Arbutin, Centella + Vita C και 5% Niacinamide για φωτεινή, καθαρή επιδερμίδα.",
-        ids: [8, 9, 5] // BOJ Glow Deep + BOJ Light On + AXIS-Y Dark Spot
-      },
-      calm: {
-        title: "🌿 Ρουτίνα Καταπράυνσης & Ενδυνάμωσης Skin Barrier",
-        desc: "100% Madagascar Centella & Probio-Cica για ευαίσθητες, ξηρές ή ερεθισμένες επιδερμίδες.",
-        ids: [10, 6, 2] // SKIN1004 Centella Ampoule + SKIN1004 Probio-Cica Cream + BOJ Relief Sun
-      },
-      antiaging: {
-        title: "💫 Ρουτίνα Θρέψης, Honey Glow & Ξεκούραστου Βλέμματος",
-        desc: "Πρόπολη, Κολλαγόνο για την περιοχή των ματιών και πλούσια ενυδάτωση Probio-Cica.",
-        ids: [4, 3, 6] // BOJ Glow Serum + Collagen Eye Cream + SKIN1004 Probio-Cica
-      }
+      glow: { title: "🍑 Ρουτίνα Glass Skin & Λάμψη", desc: "Mixsoon + Anua + BOJ Relief Sun.", ids: [7, 1, 2] },
+      spots: { title: "✨ Ρουτίνα για Σημάδια & Θαμπάδα", desc: "BOJ Glow Deep + BOJ Light On + AXIS-Y.", ids: [8, 9, 5] },
+      calm: { title: "🌿 Ρουτίνα Καταπράυνσης & Barrier", desc: "SKIN1004 Ampoule + Cream + BOJ.", ids: [10, 6, 2] },
+      antiaging: { title: "💫 Ρουτίνα Θρέψης & Ματιών", desc: "BOJ Glow Serum + Collagen Eye Cream + Cream.", ids: [4, 3, 6] }
     };
 
     function selectRoutineGoal(goalKey) {
       document.querySelectorAll(".routine-btn").forEach(btn => {
         btn.className = "routine-btn px-4 py-2.5 rounded-full text-xs sm:text-sm font-bold bg-white/15 hover:bg-white/25 text-white transition";
       });
-      const activeBtn = document.getElementById(`goal-${goalKey}`);
-      if (activeBtn) {
-        activeBtn.className = "routine-btn px-4 py-2.5 rounded-full text-xs sm:text-sm font-extrabold bg-hotpink-500 text-white shadow-md transition";
-      }
+      document.getElementById(`goal-${goalKey}`).className = "routine-btn px-4 py-2.5 rounded-full text-xs sm:text-sm font-extrabold bg-hotpink-500 text-white shadow-md transition";
 
       const preset = ROUTINE_PRESETS[goalKey];
       const items = preset.ids.map(id => PRODUCTS.find(p => p.id === id));
       const total = items.reduce((sum, item) => sum + item.price, 0);
 
-      const box = document.getElementById("routineRecommendationBox");
-      box.innerHTML = `
+      document.getElementById("routineRecommendationBox").innerHTML = `
         <div class="flex flex-wrap items-center justify-between gap-2 pb-4 border-b border-sakura-300">
           <div>
             <h4 class="text-lg sm:text-xl font-extrabold text-burgundy-900">${preset.title}</h4>
             <p class="text-xs sm:text-sm text-burgundy-700 font-medium mt-0.5">${preset.desc}</p>
           </div>
-          <span class="brush-badge px-3 py-1 text-white text-xs font-bold">@seoulcrush.cy ♡</span>
+          <span class="px-3 py-1 rounded-full bg-hotpink-500 text-white text-xs font-extrabold">✓ ΔΩΡΕΑΝ ΑΠΟΣΤΟΛΗ (€50+)</span>
         </div>
-
         <div class="grid sm:grid-cols-3 gap-3 my-4">
           ${items.map((item, i) => `
             <div class="rounded-2xl bg-white p-3.5 border border-sakura-300 flex flex-col justify-between">
               <div>
-                <span class="inline-block px-2 py-0.5 rounded-full bg-sakura-200 text-burgundy-800 text-[10px] font-extrabold">
-                  ΒΗΜΑ ${i + 1}
-                </span>
+                <span class="inline-block px-2 py-0.5 rounded-full bg-sakura-200 text-burgundy-800 text-[10px] font-extrabold">ΒΗΜΑ ${i + 1}</span>
                 <p class="text-[11px] font-extrabold text-hotpink-600 mt-1.5">${item.brand}</p>
                 <h5 class="text-sm font-extrabold text-burgundy-900 leading-snug">${item.name}</h5>
-                <p class="text-[11px] text-burgundy-700 mt-0.5">${item.badgeIcon} ${item.badgeText}</p>
               </div>
               <div class="mt-3 pt-2 border-t border-sakura-200 flex items-center justify-between">
                 <span class="font-extrabold text-sm text-burgundy-900">${item.priceFormatted}</span>
-                <button onclick="openQuickView(${item.id})" class="text-xs font-bold text-hotpink-600 hover:underline">
-                  Λεπτομέρειες →
-                </button>
+                <button onclick="openQuickView(${item.id})" class="text-xs font-bold text-hotpink-600 hover:underline">Προβολή →</button>
               </div>
             </div>
           `).join('')}
         </div>
-
         <div class="flex flex-wrap items-center justify-between gap-3 pt-2">
           <div>
-            <span class="text-xs font-bold text-burgundy-700">Συνολική Αξία Σετ 3 Βημάτων:</span>
+            <span class="text-xs font-bold text-burgundy-700">Σύνολο:</span>
             <span class="text-xl font-extrabold text-burgundy-900 ml-1">€${total.toFixed(2).replace('.', ',')}</span>
+            <span class="block text-[11px] font-extrabold text-emerald-700">🎉 Περιλαμβάνει ΔΩΡΕΑΝ Αποστολή!</span>
           </div>
-          <button onclick="addRoutineToCart([${preset.ids.join(',')}])"
-                  class="px-5 py-2.5 rounded-full bg-burgundy-800 hover:bg-hotpink-500 text-white text-xs sm:text-sm font-extrabold shadow-md transition">
-            + Προσθήκη και των 3 στο Καλάθι
-          </button>
+          <button onclick="addRoutineToCart([${preset.ids.join(',')}])" class="px-5 py-2.5 rounded-full bg-burgundy-800 hover:bg-hotpink-500 text-white text-xs sm:text-sm font-extrabold shadow-md transition">+ Προσθήκη Σετ</button>
         </div>
       `;
     }
@@ -1179,110 +1070,56 @@
       });
       updateCartUI();
       toggleCart(true);
-      showToast("Το σετ 3 βημάτων προστέθηκε στο καλάθι σας! 🌸");
+      showToast("Το σετ προστέθηκε με ΔΩΡΕΑΝ Αποστολή! 🌸");
     }
 
-    // Quick View Modal
     function openQuickView(productId) {
       const p = PRODUCTS.find(item => item.id === productId);
       if (!p) return;
-
-      const modal = document.getElementById("quickViewModal");
-      const content = document.getElementById("quickViewContent");
-
-      content.innerHTML = `
-        <div class="p-6 sm:p-8">
-          <div class="flex items-center justify-between gap-2 mb-4">
-            <span class="px-3.5 py-1 rounded-full bg-burgundy-800 text-white text-xs font-extrabold tracking-widest uppercase">
-              SEOUL CRUSH • K-BEAUTY
-            </span>
-            <span class="brush-badge px-3.5 py-1 text-white text-xs font-bold mr-10">
-              @seoulcrush.cy ♡
-            </span>
+      document.getElementById("quickViewContent").innerHTML = `
+        <div class="p-6 sm:p-8 grid md:grid-cols-12 gap-6 items-center">
+          <div class="md:col-span-5 rounded-2xl overflow-hidden border-2 border-white shadow-md bg-white">
+            <img src="${p.imageFile}" alt="${p.name}" class="w-full h-auto object-cover" onerror="this.src='https://placehold.co/800x450/FDF0F5/5A0821?text=${encodeURIComponent(p.name)}'" />
           </div>
-
-          <!-- Full Uploaded Image if available -->
-          <div class="mb-6 rounded-2xl overflow-hidden border-2 border-white shadow-md bg-white/60">
-            <img src="${p.imageFile}" alt="${p.name}" class="w-full h-auto object-cover" onerror="this.parentElement.classList.add('hidden')" />
-          </div>
-
-          <div class="grid md:grid-cols-12 gap-6 items-center">
-            <div class="md:col-span-5 bg-white/80 rounded-2xl p-6 text-center border border-sakura-300">
-              ${renderBottleSVG(p)}
-              <div class="inline-block mt-3 px-4 py-1.5 rounded-full bg-sakura-100 border border-sakura-300 text-xs font-extrabold text-burgundy-800">
-                ${p.badgeIcon} ${p.badgeText}
-              </div>
+          <div class="md:col-span-7 space-y-3">
+            <span class="text-xs font-extrabold uppercase text-hotpink-600">${p.brand}</span>
+            <h3 class="text-2xl font-extrabold text-burgundy-900">${p.name}</h3>
+            <p class="text-xs font-semibold text-burgundy-700">${p.subtitle}</p>
+            <div class="p-3 rounded-xl bg-white border border-sakura-300 text-xs text-burgundy-800">
+              <strong>💡 Τρόπος Χρήσης:</strong> ${p.howToUse}
             </div>
-
-            <div class="md:col-span-7 space-y-4">
-              <div>
-                <p class="text-sm font-extrabold text-hotpink-600 uppercase tracking-wider">${p.brand}</p>
-                <h3 class="text-2xl sm:text-3xl font-extrabold text-burgundy-900">${p.name}</h3>
-                <p class="text-sm font-semibold text-burgundy-700">${p.subtitle}</p>
-              </div>
-
-              <div class="inline-block pink-script-ribbon px-5 py-1 text-white font-script font-bold text-2xl">
-                ${p.tagline}
-              </div>
-
-              <div class="space-y-2">
-                ${p.benefits.map(b => `
-                  <div class="flex items-center gap-3 bg-white rounded-full p-2 pr-5 border border-sakura-300">
-                    <span class="w-8 h-8 rounded-full bg-sakura-200 flex items-center justify-center">${b.icon}</span>
-                    <span class="text-sm font-bold text-burgundy-900">${b.text}</span>
-                  </div>
-                `).join('')}
-              </div>
-
-              <div class="p-3.5 rounded-2xl bg-white/90 border border-sakura-300 text-xs sm:text-sm text-burgundy-800">
-                <strong>💡 Τρόπος Χρήσης:</strong> ${p.howToUse}
-              </div>
-
-              <div class="pt-2 flex flex-wrap items-center justify-between gap-4">
-                <div class="burgundy-price-badge px-6 py-2 rounded-full text-white font-extrabold text-2xl">
-                  ${p.priceFormatted}
-                </div>
-                <button onclick="addToCart(${p.id}); closeQuickView();"
-                        class="px-6 py-3 rounded-full bg-hotpink-500 hover:bg-hotpink-600 text-white font-extrabold text-sm shadow-lg transition">
-                  + Προσθήκη στο Καλάθι (${p.priceFormatted})
-                </button>
-              </div>
+            <div class="pt-2 flex items-center justify-between">
+              <span class="burgundy-price-badge px-5 py-2 rounded-full text-white font-extrabold text-xl">${p.priceFormatted}</span>
+              <button onclick="addToCart(${p.id}); closeQuickView();" class="px-5 py-2.5 rounded-full bg-hotpink-500 text-white font-bold text-xs">+ Καλάθι</button>
             </div>
           </div>
         </div>
       `;
-
-      modal.classList.remove("hidden");
-      modal.classList.add("flex");
+      document.getElementById("quickViewModal").classList.remove("hidden");
+      document.getElementById("quickViewModal").classList.add("flex");
     }
 
     function closeQuickView() {
-      const modal = document.getElementById("quickViewModal");
-      modal.classList.add("hidden");
-      modal.classList.remove("flex");
+      document.getElementById("quickViewModal").classList.add("hidden");
+      document.getElementById("quickViewModal").classList.remove("flex");
     }
 
-    // Wishlist & Cart Functions
+    function setShippingPackage(pkgType) {
+      selectedShippingPackage = pkgType === "large" ? "large" : "small";
+      updateCartUI();
+    }
+
     function toggleWishlist(id) {
-      if (wishlist.has(id)) {
-        wishlist.delete(id);
-        showToast("Αφαιρέθηκε από τα Αγαπημένα");
-      } else {
-        wishlist.add(id);
-        showToast("Προστέθηκε στα Αγαπημένα 💖");
-      }
+      if (wishlist.has(id)) { wishlist.delete(id); showToast("Αφαιρέθηκε από τα Αγαπημένα"); }
+      else { wishlist.add(id); showToast("Προστέθηκε στα Αγαπημένα 💖"); }
       updateWishlistBadge();
       renderCatalog();
     }
 
     function updateWishlistBadge() {
       const badge = document.getElementById("wishlistCount");
-      if (wishlist.size > 0) {
-        badge.textContent = wishlist.size;
-        badge.classList.remove("hidden");
-      } else {
-        badge.classList.add("hidden");
-      }
+      if (wishlist.size > 0) { badge.textContent = wishlist.size; badge.classList.remove("hidden"); }
+      else { badge.classList.add("hidden"); }
     }
 
     function addToCart(id) {
@@ -1305,34 +1142,46 @@
     function toggleCart(open) {
       const drawer = document.getElementById("cartDrawer");
       const backdrop = document.getElementById("cartDrawerBackdrop");
-      if (open) {
-        backdrop.classList.remove("hidden");
-        drawer.classList.remove("translate-x-full");
-      } else {
-        backdrop.classList.add("hidden");
-        drawer.classList.add("translate-x-full");
-      }
+      if (open) { backdrop.classList.remove("hidden"); drawer.classList.remove("translate-x-full"); }
+      else { backdrop.classList.add("hidden"); drawer.classList.add("translate-x-full"); }
     }
 
     function updateCartUI() {
       const totalItems = cart.reduce((sum, item) => sum + item.qty, 0);
       document.getElementById("cartCountBadge").textContent = totalItems;
 
-      const totalAmount = cart.reduce((sum, item) => {
+      const subtotal = cart.reduce((sum, item) => {
         const p = PRODUCTS.find(prod => prod.id === item.id);
         return sum + (p ? p.price * item.qty : 0);
       }, 0);
 
-      document.getElementById("cartTotalValue").textContent = `€${totalAmount.toFixed(2).replace('.', ',')}`;
+      const isFreeShipping = subtotal >= FREE_SHIPPING_THRESHOLD;
+      const shippingCost = isFreeShipping ? 0 : SHIPPING_RATES[selectedShippingPackage].price;
+      const finalTotal = subtotal + shippingCost;
 
-      // Free shipping threshold €45
-      const threshold = 45;
-      const pct = Math.min(100, (totalAmount / threshold) * 100);
+      document.getElementById("cartSubtotalValue").textContent = `€${subtotal.toFixed(2).replace('.', ',')}`;
+      document.getElementById("cartShippingLabel").textContent = isFreeShipping ? "Αποστολή (ΔΩΡΕΑΝ):" : `Αποστολή (${SHIPPING_RATES[selectedShippingPackage].label}):`;
+      document.getElementById("cartShippingValue").textContent = isFreeShipping ? "€0,00" : `€${shippingCost.toFixed(2).replace('.', ',')}`;
+      document.getElementById("cartTotalValue").textContent = `€${finalTotal.toFixed(2).replace('.', ',')}`;
+
+      const threshold = FREE_SHIPPING_THRESHOLD;
+      const pct = Math.min(100, (subtotal / threshold) * 100);
       document.getElementById("freeShippingBar").style.width = `${pct}%`;
-      document.getElementById("freeShippingText").textContent =
-        totalAmount >= threshold
-          ? "🎉 Κερδίσατε ΔΩΡΕΑΝ Παράδοση σε όλη την Κύπρο!"
-          : `Προσθέστε €${(threshold - totalAmount).toFixed(2).replace('.', ',')} ακόμη για ΔΩΡΕΑΝ Παράδοση!`;
+      document.getElementById("freeShippingText").innerHTML = isFreeShipping
+        ? "🎉 <strong>Κερδίσατε ΔΩΡΕΑΝ Αποστολή σε όλη την Κύπρο!</strong>"
+        : `Προσθέστε ακόμη <strong>€${(threshold - subtotal).toFixed(2).replace('.', ',')}</strong> για <strong>ΔΩΡΕΑΝ Αποστολή</strong>!`;
+
+      const smallBtn = document.getElementById("pkg-small-btn");
+      const largeBtn = document.getElementById("pkg-large-btn");
+      if (smallBtn && largeBtn) {
+        if (selectedShippingPackage === "small") {
+          smallBtn.className = "p-2.5 rounded-xl border-2 border-hotpink-500 bg-sakura-100 text-left transition flex flex-col justify-between shadow-sm";
+          largeBtn.className = "p-2.5 rounded-xl border-2 border-sakura-300 bg-white text-left transition flex flex-col justify-between";
+        } else {
+          largeBtn.className = "p-2.5 rounded-xl border-2 border-hotpink-500 bg-sakura-100 text-left transition flex flex-col justify-between shadow-sm";
+          smallBtn.className = "p-2.5 rounded-xl border-2 border-sakura-300 bg-white text-left transition flex flex-col justify-between";
+        }
+      }
 
       const container = document.getElementById("cartItemsContainer");
       if (cart.length === 0) {
@@ -1340,7 +1189,6 @@
           <div class="text-center py-12 text-burgundy-700">
             <p class="text-4xl mb-2">🛍️</p>
             <p class="font-extrabold text-base">Το καλάθι σας είναι άδειο</p>
-            <p class="text-xs mt-1">Επιλέξτε τα αγαπημένα σας προϊόντα @seoulcrush.cy!</p>
           </div>
         `;
         return;
@@ -1350,12 +1198,12 @@
         const p = PRODUCTS.find(prod => prod.id === item.id);
         return `
           <div class="p-3.5 rounded-2xl bg-white border border-sakura-300 flex items-center justify-between gap-3 shadow-sm">
-            <div>
-              <p class="text-[10px] font-extrabold text-hotpink-600 uppercase">${p.brand}</p>
-              <h4 class="text-sm font-extrabold text-burgundy-900">${p.name}</h4>
+            <div class="min-w-0">
+              <span class="text-[10px] font-extrabold text-hotpink-600 uppercase">${p.brand}</span>
+              <h4 class="text-xs sm:text-sm font-extrabold text-burgundy-900 truncate">${p.name}</h4>
               <p class="text-xs font-bold text-burgundy-700">${p.priceFormatted} • ${p.size}</p>
             </div>
-            <div class="flex items-center gap-2">
+            <div class="flex items-center gap-2 shrink-0">
               <button onclick="changeCartQty(${p.id}, -1)" class="w-7 h-7 rounded-full bg-sakura-200 font-bold text-burgundy-900">−</button>
               <span class="text-xs font-extrabold w-5 text-center">${item.qty}</span>
               <button onclick="changeCartQty(${p.id}, 1)" class="w-7 h-7 rounded-full bg-sakura-200 font-bold text-burgundy-900">+</button>
@@ -1365,13 +1213,44 @@
       }).join("");
     }
 
-    function checkoutOrder() {
-      if (cart.length === 0) {
-        showToast("Το καλάθι σας είναι άδειο!");
-        return;
-      }
-      showToast("Ευχαριστούμε! Η παραγγελία σας στο @seoulcrush.cy καταχωρήθηκε 💖");
+    function openCheckoutModal() {
+      if (cart.length === 0) { showToast("Το καλάθι σας είναι άδειο!"); return; }
       toggleCart(false);
+
+      const subtotal = cart.reduce((sum, item) => {
+        const p = PRODUCTS.find(prod => prod.id === item.id);
+        return sum + (p ? p.price * item.qty : 0);
+      }, 0);
+
+      const isFree = subtotal >= FREE_SHIPPING_THRESHOLD;
+      const shipCost = isFree ? 0 : SHIPPING_RATES[selectedShippingPackage].price;
+      const finalAmt = subtotal + shipCost;
+
+      document.getElementById("checkoutModalFinalTotal").textContent = `€${finalAmt.toFixed(2).replace('.', ',')}`;
+      document.getElementById("checkoutSummarySubtext").textContent = `Προϊόντα: €${subtotal.toFixed(2).replace('.', ',')} + Πακέτο: ${isFree ? 'ΔΩΡΕΑΝ' : '€' + shipCost.toFixed(2)}`;
+
+      document.getElementById("checkoutModal").classList.remove("hidden");
+      document.getElementById("checkoutModal").classList.add("flex");
+    }
+
+    function closeCheckoutModal() {
+      document.getElementById("checkoutModal").classList.add("hidden");
+      document.getElementById("checkoutModal").classList.remove("flex");
+    }
+
+    function selectPaymentMethod(method) {
+      selectedPaymentMethod = method;
+      document.getElementById("pay-btn-card").className = method === "card" ? "p-2.5 rounded-xl border-2 border-hotpink-500 bg-sakura-100 text-center font-bold text-xs" : "p-2.5 rounded-xl border-2 border-sakura-300 bg-white text-center font-bold text-xs";
+      document.getElementById("pay-btn-stripe").className = method === "stripe" ? "p-2.5 rounded-xl border-2 border-hotpink-500 bg-sakura-100 text-center font-bold text-xs" : "p-2.5 rounded-xl border-2 border-sakura-300 bg-white text-center font-bold text-xs";
+      document.getElementById("pay-btn-revolut").className = method === "revolut" ? "p-2.5 rounded-xl border-2 border-hotpink-500 bg-sakura-100 text-center font-bold text-xs" : "p-2.5 rounded-xl border-2 border-sakura-300 bg-white text-center font-bold text-xs";
+    }
+
+    function submitOrder(e) {
+      e.preventDefault();
+      showToast("Η παραγγελία σας καταχωρήθηκε επιτυχώς! Ευχαριστούμε πολύ 💖");
+      closeCheckoutModal();
+      cart = [];
+      updateCartUI();
     }
 
     function showToast(msg) {
@@ -1383,21 +1262,20 @@
       window._toastTimer = setTimeout(() => {
         toast.classList.add("hidden");
         toast.classList.remove("flex");
-      }, 3200);
+      }, 3500);
     }
 
-    // Initialize Page
     window.addEventListener("DOMContentLoaded", () => {
       updateWishlistBadge();
       updateCartUI();
       renderHeroSpotlight();
       renderCatalog();
       selectRoutineGoal("glow");
+
       setInterval(() => {
         heroIndex = (heroIndex + 1) % PRODUCTS.length;
         renderHeroSpotlight();
       }, 5500);
     });
-  </script>
 </body>
 </html>
